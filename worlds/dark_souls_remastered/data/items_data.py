@@ -6,11 +6,11 @@ TODO Upgraded versions of weapons and armor?
 
 weapons_table = {
     # Daggers
-    "Dagger": 123450,
-    "Parrying Dagger": 123450,
-    "Bandit's Knife": 123450,
-    "Ghost Blade": 123450,
-    "Priscilla's Dagger": 123450,
+    "Dagger": 0x000186A0,
+    "Parrying Dagger": 0x00018A88,
+    "Bandit's Knife": 0x00019258,
+    "Ghost Blade": 0x00018E70,
+    "Priscilla's Dagger": 0x00019640,
     # Straight Swords
     "Shortsword": 123450,
     "Longsword": 123450,
@@ -162,7 +162,7 @@ weapons_table = {
 
 dlc_weapons_table = {
     # Daggers
-    "Dark Silver Tracer": 123450,
+    "Dark Silver Tracer": 0x00897F38,
     # Greatswords
     "Abyss Greatsword": 123450,
     "Obsidian Greatsword": 123450,
