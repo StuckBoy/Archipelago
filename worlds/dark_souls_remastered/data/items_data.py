@@ -38,11 +38,11 @@ weapons_table = {
     "Stone Greatsword": 123450,
     "Moonlight Greatsword": 123450,
     # Ultra Greatswords
-    "Greatsword": 123450,
-    "Zweihander": 123450,
-    "Demon Great Machete": 123450,
-    "Black Knight Greatsword": 123450,
-    "Dragon Greatsword": 123450,
+    "Greatsword": 0x00055B18,
+    "Zweihander": 0x00055730,
+    "Demon Great Machete": 0x00055F00,
+    "Black Knight Greatsword": 0x00056AB8,
+    "Dragon Greatsword": 0x000566D0,
     # Curved Swords
     "Scimitar": 123450,
     "Quelaag's Furysword": 123450,
