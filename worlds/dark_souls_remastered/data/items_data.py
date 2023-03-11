@@ -44,12 +44,12 @@ weapons_table = {
     "Black Knight Greatsword": 0x00056AB8,
     "Dragon Greatsword": 0x000566D0,
     # Curved Swords
-    "Scimitar": 123450,
+    "Scimitar": 0x00061A80,
     "Quelaag's Furysword": 123450,
-    "Falchion": 123450,
-    "Shotel": 123450,
-    "Painting Guardian Sword": 123450,
-    "Jagged Ghost Blade": 123450,
+    "Falchion": 0x00061E68,
+    "Shotel": 0x00062250,
+    "Painting Guardian Sword": 0x00062E08,
+    "Jagged Ghost Blade": 0x00062638,
     # Katanas
     "Uchigatana": 123450,
     "Chaos Blade": 123450,
