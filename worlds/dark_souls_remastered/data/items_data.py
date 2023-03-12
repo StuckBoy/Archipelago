@@ -132,11 +132,12 @@ weapons_table = {
     "Whip": 0x00186A00,
     "Notched Whip": 0x00186DE8,
     # Bows
-    "Short Bow": 123450,
-    "Composite Bow": 123450,
+    "Short Bow": 0x00124F80,
+    "Composite Bow": 0x00125F20,
+    # TODO Multiple IDs, how does this work?
     "Darkmoon Bow": 123450,
-    "Longbow": 123450,
-    "Black Bow of Pharis": 123450,
+    "Longbow": 0x00125368,
+    "Black Bow of Pharis": 0x00125750,
     # Greatbows
     "Dragonslayer Greatbow": 123450,
     # Crossbows
