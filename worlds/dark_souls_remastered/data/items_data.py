@@ -51,10 +51,11 @@ weapons_table = {
     "Painting Guardian Sword": 0x00062E08,
     "Jagged Ghost Blade": 0x00062638,
     # Katanas
-    "Uchigatana": 123450,
+    "Uchigatana": 0x0007A120,
+    # TODO Multiple IDs, how does this work?
     "Chaos Blade": 123450,
-    "Iaito": 123450,
-    "Washing Pole": 123450,
+    "Iaito": 0x0007A8F0,
+    "Washing Pole": 0x0007A508,
     # Curved Greatswords
     "Murakumo": 123450,
     "Server": 123450,
