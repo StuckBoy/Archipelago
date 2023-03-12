@@ -45,6 +45,7 @@ weapons_table = {
     "Dragon Greatsword": 0x000566D0,
     # Curved Swords
     "Scimitar": 0x00061A80,
+    # TODO Multiple IDs, how does that work?
     "Quelaag's Furysword": 123450,
     "Falchion": 0x00061E68,
     "Shotel": 0x00062250,
@@ -91,12 +92,13 @@ weapons_table = {
     "Blacksmith Hammer": 0x000C5C10,
     "Hammer of Vamos": 0x000C63E0,
     # Great Hammers
+    # TODO Multiple IDs, how does this work?
     "Smough's Hammer": 123450,
-    "Large Club": 123450,
-    "Great Club": 123450,
-    "Demon's Great Hammer": 123450,
-    "Grant": 123450,
-    "Dragon Tooth": 123450,
+    "Large Club": 0x000D0BD8,
+    "Great Club": 0x000CF850,
+    "Demon's Great Hammer": 0x000D0020,
+    "Grant": 0x000CFC38,
+    "Dragon Tooth": 0x000D07F0,
     # Fist Weapons
     "Dragon Bone Fist": 123450,
     "Caestus": 123450,
