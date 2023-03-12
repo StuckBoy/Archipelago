@@ -146,16 +146,17 @@ weapons_table = {
     "Sniper Crossbow": 0x00131E88,
     "Avelyn": 0x00131AA0,
     # Catalysts
-    "Sorcerer's Catalyst": 123450,
+    "Sorcerer's Catalyst": 0x0013D620,
+    # TODO Multiple IDs, how does this work?
     "Tin Darkmoon Catalyst": 123450,
-    "Beatrice's Catalyst": 123450,
-    "Logan's Catalyst": 123450,
+    "Beatrice's Catalyst": 0x0013DA08,
+    "Logan's Catalyst": 0x0013E1D8,
     # TODO Determine if DLC or not
-    "Oolacile Ivory Catalyst": 123450,
-    "Demon's Catalyst": 123450,
-    "Izalith Catalyst": 123450,
-    "Tin Banishment Catalyst": 123450,
-    "Tin Crystallization Catalyst": 123450,
+    "Oolacile Ivory Catalyst": 0x0013E9A8,
+    "Demon's Catalyst": 0x0013F178,
+    "Izalith Catalyst": 0x0013F560,
+    "Tin Banishment Catalyst": 0x0013DDF0,
+    "Tin Crystallization Catalyst": 0x0013ED90,
     # Flames
     "Pyromancy Flame": 123450,
     "Pyromancy Flame (Upgraded)": 123450,
