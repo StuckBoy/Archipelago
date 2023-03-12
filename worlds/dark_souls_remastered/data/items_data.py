@@ -129,8 +129,8 @@ weapons_table = {
     "Black Knight Halberd": 0x0010DC68,
     "Great Scythe": 0x00118C30,
     # Whips
-    "Whip": 123450,
-    "Notched Whip": 123450,
+    "Whip": 0x00186A00,
+    "Notched Whip": 0x00186DE8,
     # Bows
     "Short Bow": 123450,
     "Composite Bow": 123450,
