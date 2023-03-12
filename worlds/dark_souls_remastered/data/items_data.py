@@ -163,13 +163,13 @@ weapons_table = {
     # TODO Can't determine ID, should this even be in the pool?
     "Pyromancy Flame (Upgraded)": 123450,
     # Talismans
-    "Talisman": 123450,
-    "Canvas Talisman": 123450,
-    "Thorolund Talisman": 123450,
-    "Ivory Talisman": 123450,
-    "Sunlight Talisman": 123450,
-    "Darkmoon Talisman": 123450,
-    "Velka's Talisman": 123450,
+    "Talisman": 0x0014C080,
+    "Canvas Talisman": 0x0014C468,
+    "Thorolund Talisman": 0x0014C850,
+    "Ivory Talisman": 0x0014CC38,
+    "Sunlight Talisman": 0x0014D408,
+    "Darkmoon Talisman": 0x0014D7F0,
+    "Velka's Talisman": 0x0014DBD8,
 }
 
 dlc_weapons_table = {
