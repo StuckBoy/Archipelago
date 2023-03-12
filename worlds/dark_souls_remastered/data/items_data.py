@@ -75,11 +75,11 @@ weapons_table = {
     "Gargoyle Tail Axe": 0x000AC1E8,
     "Crescent Axe": 0x000AB630,
     # Great Axes
-    "Greataxe": 123450,
-    "Demon's Greataxe": 123450,
-    "Stone Greataxe": 123450,
-    "Black Knight Greataxe": 123450,
-    "Dragon King Greataxe": 123450,
+    "Greataxe": 0x000B71B0,
+    "Demon's Greataxe": 0x000B7598,
+    "Stone Greataxe": 0x00898ED8,
+    "Black Knight Greataxe": 0x000B7D68,
+    "Dragon King Greataxe": 0x000B7980,
     # Hammers
     "Club": 123450,
     "Reinforced Club": 123450,
