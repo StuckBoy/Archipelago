@@ -158,7 +158,9 @@ weapons_table = {
     "Tin Banishment Catalyst": 0x0013DDF0,
     "Tin Crystallization Catalyst": 0x0013ED90,
     # Flames
+    # TODO Multiple IDs, how does this work?
     "Pyromancy Flame": 123450,
+    # TODO Can't determine ID, should this even be in the pool?
     "Pyromancy Flame (Upgraded)": 123450,
     # Talismans
     "Talisman": 123450,
