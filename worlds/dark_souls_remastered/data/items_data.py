@@ -139,7 +139,7 @@ weapons_table = {
     "Longbow": 0x00125368,
     "Black Bow of Pharis": 0x00125750,
     # Greatbows
-    "Dragonslayer Greatbow": 123450,
+    "Dragonslayer Greatbow": 0x001E9FD8,
     # Crossbows
     "Light Crossbow": 123450,
     "Heavy Crossbow": 123450,
