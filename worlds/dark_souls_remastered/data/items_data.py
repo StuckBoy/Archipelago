@@ -141,10 +141,10 @@ weapons_table = {
     # Greatbows
     "Dragonslayer Greatbow": 0x001E9FD8,
     # Crossbows
-    "Light Crossbow": 123450,
-    "Heavy Crossbow": 123450,
-    "Sniper Crossbow": 123450,
-    "Avelyn": 123450,
+    "Light Crossbow": 0x001312D0,
+    "Heavy Crossbow": 0x001316D8,
+    "Sniper Crossbow": 0x00131E88,
+    "Avelyn": 0x00131AA0,
     # Catalysts
     "Sorcerer's Catalyst": 123450,
     "Tin Darkmoon Catalyst": 123450,
