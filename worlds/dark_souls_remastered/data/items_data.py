@@ -100,10 +100,11 @@ weapons_table = {
     "Grant": 0x000CFC38,
     "Dragon Tooth": 0x000D07F0,
     # Fist Weapons
+    # TODO Multiple IDs, how does this work?
     "Dragon Bone Fist": 123450,
-    "Caestus": 123450,
-    "Claws": 123450,
-    "Dark Hand": 123450,
+    "Caestus": 0x000DBF88,
+    "Claws": 0x000DC370,
+    "Dark Hand": 0x000DCB40,
     # Spears
     "Spear": 123450,
     "Winged Spear": 123450,
