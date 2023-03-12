@@ -61,11 +61,11 @@ weapons_table = {
     "Server": 0x0006DDD0,
     "Gravelord Sword": 0x0006E988,
     # Piercing Swords
-    "Mail Breaker": 123450,
-    "Rapier": 123450,
-    "Estoc": 123450,
-    "Ricard's Rapier": 123450,
-    "Velka's Rapier": 123450,
+    "Mail Breaker": 0x000927C0,
+    "Rapier": 0x00092BA8,
+    "Estoc": 0x00092F90,
+    "Ricard's Rapier": 0x00093760,
+    "Velka's Rapier": 0x00093378,
     # Axes
     "Hand Axe": 123450,
     "Battle Axe": 123450,
