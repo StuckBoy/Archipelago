@@ -67,12 +67,13 @@ weapons_table = {
     "Ricard's Rapier": 0x00093760,
     "Velka's Rapier": 0x00093378,
     # Axes
-    "Hand Axe": 123450,
-    "Battle Axe": 123450,
+    "Hand Axe": 0x000AAE60,
+    "Battle Axe": 0x000AB248,
+    # TODO Multiple IDs, how does this work?
     "Golem Axe": 123450,
-    "Butcher Knife": 123450,
-    "Gargoyle Tail Axe": 123450,
-    "Crescent Axe": 123450,
+    "Butcher Knife": 0x000ABA1C,
+    "Gargoyle Tail Axe": 0x000AC1E8,
+    "Crescent Axe": 0x000AB630,
     # Great Axes
     "Greataxe": 123450,
     "Demon's Greataxe": 123450,
