@@ -57,9 +57,9 @@ weapons_table = {
     "Iaito": 0x0007A8F0,
     "Washing Pole": 0x0007A508,
     # Curved Greatswords
-    "Murakumo": 123450,
-    "Server": 123450,
-    "Gravelord Sword": 123450,
+    "Murakumo": 0x0006E1B8,
+    "Server": 0x0006DDD0,
+    "Gravelord Sword": 0x0006E988,
     # Piercing Swords
     "Mail Breaker": 123450,
     "Rapier": 123450,
