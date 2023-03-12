@@ -106,15 +106,17 @@ weapons_table = {
     "Claws": 0x000DC370,
     "Dark Hand": 0x000DCB40,
     # Spears
-    "Spear": 123450,
-    "Winged Spear": 123450,
-    "Partizan": 123450,
+    "Spear": 0x000F4240,
+    "Winged Spear": 0x000F4628,
+    "Partizan": 0x000F4A10,
+    # TODO Multiple IDs, how does this work?
     "Dragonslayer Spear": 123450,
+    # TODO Multiple IDs, how does this work?
     "Moonlight Butterfly Horn": 123450,
-    "Pike": 123450,
-    "Channeler's Trident": 123450,
-    "Demon's Spear": 123450,
-    "Silver Knight Spear": 123450,
+    "Pike": 0x00100590,
+    "Channeler's Trident": 0x000F51E0,
+    "Demon's Spear": 0x000F4DF8,
+    "Silver Knight Spear": 0x000F59B0,
     # Halberds
     "Halberd": 123450,
     "Lifehunt Scythe": 123450,
