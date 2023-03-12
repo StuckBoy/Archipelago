@@ -176,19 +176,21 @@ dlc_weapons_table = {
     # Daggers
     "Dark Silver Tracer": 0x00897F38,
     # Greatswords
+    # TODO Multiple IDs, how does this work?
     "Abyss Greatsword": 123450,
-    "Obsidian Greatsword": 123450,
+    "Obsidian Greatsword": 0x0089A260,
     # Curved Swords
-    "Gold Tracer": 123450,
+    "Gold Tracer": 0x00897B50,
     # Spears
-    "Four-pronged Plow": 123450,
+    "Four-pronged Plow": 0x008992C0,
     # Whips
-    "Guardian Tail": 123450,
+    "Guardian Tail": 0x00899E78,
     # Greatbows
-    "Gough's Greatbow": 123450,
+    "Gough's Greatbow": 0x0089A648,
     # Catalysts
+    # TODO Multiple IDs, how does this work?
     "Manus Catalyst": 123450,
-    "Oolacile Catalyst": 123450,
+    "Oolacile Catalyst": 0x00899A90,
 }
 
 shield_table = {
