@@ -664,6 +664,29 @@ dlc_misc_items_table = {
 
 }
 
+firekeeper_souls_table = {
+    "Soul of the Ash Maiden": 0x00000186,
+    "Soul of the Darkmoon Knightess": 0x00000187,
+    "Soul of a Daughter of Chaos": 0x00000188,
+    "Firekeeper Soul #1": 0x00000189,
+    "Firekeeper Soul #2": 0x0000018A,
+    "Firekeeper Soul #3": 0x0000018B,
+    "Firekeeper Soul #4": 0x0000018C,
+}
+
+misc_souls_table = {
+    "Soul of a Lost Undead": 0x00000190,
+    "Large Soul of a Lost Undead": 0x00000191,
+    "Soul of a Nameless Soldier": 0x00000192,
+    "Large Soul of a Nameless Soldier": 0x00000193,
+    "Soul of a Proud Knight": 0x00000194,
+    "Large Soul of a Proud Knight": 0x00000195,
+    "Soul of a Brave Warrior": 0x00000196,
+    "Large Soul of a Brave Warrior": 0x00000197,
+    "Soul of a Hero": 0x00000198,
+    "Soul of a Great Hero": 0x00000199,
+}
+
 embers_table = {
     "Large Ember": 0x00000329,
     "Very Large Ember": 0x00000321,
