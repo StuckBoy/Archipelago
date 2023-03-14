@@ -45,16 +45,14 @@ weapons_table = {
     "Dragon Greatsword": 0x000566D0,
     # Curved Swords
     "Scimitar": 0x00061A80,
-    # TODO Multiple IDs, how does that work?
-    "Quelaag's Furysword": 123450,
+    "Quelaag's Furysword": 0x0006331C,
     "Falchion": 0x00061E68,
     "Shotel": 0x00062250,
     "Painting Guardian Sword": 0x00062E08,
     "Jagged Ghost Blade": 0x00062638,
     # Katanas
     "Uchigatana": 0x0007A120,
-    # TODO Multiple IDs, how does this work?
-    "Chaos Blade": 123450,
+    "Chaos Blade": 0x0007ADA0,
     "Iaito": 0x0007A8F0,
     "Washing Pole": 0x0007A508,
     # Curved Greatswords
@@ -70,8 +68,7 @@ weapons_table = {
     # Axes
     "Hand Axe": 0x000AAE60,
     "Battle Axe": 0x000AB248,
-    # TODO Multiple IDs, how does this work?
-    "Golem Axe": 123450,
+    "Golem Axe": 0x000ABE00,
     "Butcher Knife": 0x000ABA1C,
     "Gargoyle Tail Axe": 0x000AC1E8,
     "Crescent Axe": 0x000AB630,
@@ -92,16 +89,14 @@ weapons_table = {
     "Blacksmith Hammer": 0x000C5C10,
     "Hammer of Vamos": 0x000C63E0,
     # Great Hammers
-    # TODO Multiple IDs, how does this work?
-    "Smough's Hammer": 123450,
+    "Smough's Hammer": 0x000D1024,
     "Large Club": 0x000D0BD8,
     "Great Club": 0x000CF850,
     "Demon's Great Hammer": 0x000D0020,
     "Grant": 0x000CFC38,
     "Dragon Tooth": 0x000D07F0,
     # Fist Weapons
-    # TODO Multiple IDs, how does this work?
-    "Dragon Bone Fist": 123450,
+    "Dragon Bone Fist": 0x000DC7BC,
     "Caestus": 0x000DBF88,
     "Claws": 0x000DC370,
     "Dark Hand": 0x000DCB40,
@@ -109,18 +104,15 @@ weapons_table = {
     "Spear": 0x000F4240,
     "Winged Spear": 0x000F4628,
     "Partizan": 0x000F4A10,
-    # TODO Multiple IDs, how does this work?
-    "Dragonslayer Spear": 123450,
-    # TODO Multiple IDs, how does this work?
-    "Moonlight Butterfly Horn": 123450,
+    "Dragonslayer Spear": 0x001009DC,
+    "Moonlight Butterfly Horn": 0x00101148,
     "Pike": 0x00100590,
     "Channeler's Trident": 0x000F51E0,
     "Demon's Spear": 0x000F4DF8,
     "Silver Knight Spear": 0x000F59B0,
     # Halberds
     "Halberd": 0x0010C8E0,
-    # TODO Multiple IDs, how does this work?
-    "Lifehunt Scythe": 123450,
+    "Lifehunt Scythe": 0x00119338,
     "Lucerne": 0x0010E050,
     "Scythe": 0x0010E438,
     "Gargoyle's Halberd": 0x0010D498,
@@ -134,8 +126,7 @@ weapons_table = {
     # Bows
     "Short Bow": 0x00124F80,
     "Composite Bow": 0x00125F20,
-    # TODO Multiple IDs, how does this work?
-    "Darkmoon Bow": 123450,
+    "Darkmoon Bow": 0x0012636C,
     "Longbow": 0x00125368,
     "Black Bow of Pharis": 0x00125750,
     # Greatbows
@@ -147,8 +138,7 @@ weapons_table = {
     "Avelyn": 0x00131AA0,
     # Catalysts
     "Sorcerer's Catalyst": 0x0013D620,
-    # TODO Multiple IDs, how does this work?
-    "Tin Darkmoon Catalyst": 123450,
+    "Tin Darkmoon Catalyst": 0x0013E5C0,
     "Beatrice's Catalyst": 0x0013DA08,
     "Logan's Catalyst": 0x0013E1D8,
     # TODO Determine if DLC or not
@@ -158,8 +148,7 @@ weapons_table = {
     "Tin Banishment Catalyst": 0x0013DDF0,
     "Tin Crystallization Catalyst": 0x0013ED90,
     # Flames
-    # TODO Multiple IDs, how does this work?
-    "Pyromancy Flame": 123450,
+    "Pyromancy Flame": 0x00145320,
     # TODO Can't determine ID, should this even be in the pool?
     "Pyromancy Flame (Upgraded)": 123450,
     # Talismans
@@ -177,7 +166,7 @@ dlc_weapons_table = {
     "Dark Silver Tracer": 0x00897F38,
     # Greatswords
     # TODO Multiple IDs, how does this work?
-    "Abyss Greatsword": 123450,
+    "Abyss Greatsword": 0x00898320,
     "Obsidian Greatsword": 0x0089A260,
     # Curved Swords
     "Gold Tracer": 0x00897B50,
@@ -188,8 +177,7 @@ dlc_weapons_table = {
     # Greatbows
     "Gough's Greatbow": 0x0089A648,
     # Catalysts
-    # TODO Multiple IDs, how does this work?
-    "Manus Catalyst": 123450,
+    "Manus Catalyst": 0x008996A8,
     "Oolacile Catalyst": 0x00899A90,
 }
 
@@ -206,8 +194,7 @@ shield_table = {
     "Leather Shield": 0x00157C00,
     "Buckler": 0x00157048,
     "Target Shield": 0x00156C60,
-    # TODO Multiple IDs, how does this work?
-    "Crystal Ring Shield": 123450,
+    "Crystal Ring Shield": 0x001587B8,
     # Standard
     "East-West Shield": 0x00155CC0,
     "Wooden Shield": 0x001560A8,
@@ -232,8 +219,7 @@ shield_table = {
     "Dragon Crest Shield": 0x00163B68,
     "Black Knight Shield": 0x00167DD0,
     # Greatshields
-    # TODO Multiple IDs, how does this work?
-    "Greatshield of Artorias": 123450,
+    "Greatshield of Artorias": 0x0016FEB8,
     "Eagle Shield": 0x0016E360,
     "Tower Shield": 0x0016E748,
     "Black Iron Greatshield": 0x00895FF8,
