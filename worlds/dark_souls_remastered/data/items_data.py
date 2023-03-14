@@ -619,29 +619,31 @@ embers_table = {
 }
 
 key_items_table = {
-    "Lordvessel": 123450,
-    "Soul of Four Kings": 123450,
-    "Soul of Seath the Scaleless": 123450,
-    "Soul of Gravelord Nito": 123450,
-    "Soul of Bed of Chaos": 123450,
+    "Lordvessel": 0x000009CE,
+    # TODO Seath and FK are both Bequeathed Lord Souls, which is which?
+    "Soul of the Four Kings": 0x000009C6,
+    "Soul of Seath the Scaleless": 0x000009C7,
+    # TODO Nito and BoC are both Lord Souls, which is which?
+    "Soul of Gravelord Nito": 0x000009C4,
+    "Soul of Bed of Chaos": 0x000009C5,
 }
 
 boss_souls_table = {
-    "Soul of the Moonlight Butterfly": 123450,
-    "Soul of Quelaag": 123450,
-    "Core of an Iron Golem": 123450,
-    "Soul of Gwyndolin": 123450,
-    "Soul of Ornstein": 123450,
-    "Soul of Smough": 123450,
-    "Soul of Sif": 123450,
-    "Soul of Priscilla": 123450,
-    "Soul of Gwyn, Lord of Cinder": 123450,
+    "Soul of the Moonlight Butterfly": 0x000002C1,
+    "Soul of Quelaag": 0x000002BC,
+    "Core of an Iron Golem": 0x000002BF,
+    "Soul of Gwyndolin": 0x000002C4,
+    "Soul of Ornstein": 0x000002C0,
+    "Soul of Smough": 0x000002C2,
+    "Soul of Sif": 0x000002BD,
+    "Soul of Priscilla": 0x000002C3,
+    "Soul of Gwyn, Lord of Cinder": 0x000002BE,
 }
 
 dlc_boss_souls_table = {
-    "Guardian Soul": 123450,
-    "Soul of Artorias": 123450,
-    "Soul of Manus": 123450,
+    "Guardian Soul": 0x000002C5,
+    "Soul of Artorias": 0x000002C6,
+    "Soul of Manus": 0x000002C7,
 }
 
 keys_table = {
