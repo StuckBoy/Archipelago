@@ -497,6 +497,15 @@ armor_table = {
     "Knight Armor": 0x0005F758,
     "Knight Gauntlets": 0x0005FB40,
     "Knight Leggings": 0x0005FF28,
+    # Misc.
+    "Sunlight Maggot": 0x0002E630,
+    "Fang Boar Helm": 0x000975E0,
+    "Gargoyle Helm": 0x00099CF0,
+    "Symbol of Avarice": 0x0008B290,
+    "Sack": 0x00088B80,
+    "Mask of the Father": 0x000900B0,
+    "Mask of the Mother": 0x000927C0,
+    "Mask of the Child": 0x00094ED0,
     # TODO Should the no gear IDs be added?
 }
 
