@@ -657,10 +657,17 @@ spells_table = {
 }
 
 misc_items_table = {
-
+    "Skull Lantern": 0x00154D20,
+    "Binoculars": 0x00000173,
+    "Darksign": 0x00000075,
+    "Dragon Head Stone": 0x00000179,
+    "Dragon Torso Stone": 0x0000017A,
+    "Black Eye Orb": 0x00000073,
 }
 
 dlc_misc_items_table = {
+    "Silver Pendant": 0x000000DC,
+}
 
 }
 
