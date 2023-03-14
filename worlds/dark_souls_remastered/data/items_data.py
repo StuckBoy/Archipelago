@@ -517,6 +517,9 @@ dlc_armor_table = {
     "Chester's Long Coat": 123450,
     "Chester's Gloves": 123450,
     "Chester's Trousers": 123450,
+    # Misc.
+    "Bloated Head": 0x000AD570,
+    "Bloated Sorcerer Head": 0x000AFC80,
 }
 
 rings_table = {
@@ -568,6 +571,7 @@ dlc_rings_table = {
 }
 
 spells_table = {
+    # Sorceries
     "Soul Arrow": 0x00000BB8,
     "Great Soul Arrow": 0x00000BC2,
     "Heavy Soul Arrow": 0x00000BCC,
@@ -592,10 +596,55 @@ spells_table = {
     "Chameleon": 0x00000DDE,
     "Remedy": 0x00000E1A,
     "Resist Curse": 0x00000E10,
+    # DLC Sorceries
     "Dark Orb": 0x00000E7E,
     "Dark Bead": 0x00000E88,
     "Dark Fog": 0x00000E92,
     "Pursuers": 0x00000E9C,
+    # Pyromancies
+    "Combustion": 0x00001004,
+    "Great Combustion": 0x0000100E,
+    "Fireball": 0x00000FA0,
+    "Fire Orb": 0x00000FAA,
+    "Great Fireball": 0x00000FB4,
+    "Great Chaos Fireball": 0x00001194,
+    "Firestorm": 0x00000FBE,
+    "Chaos Storm": 0x0000119E,
+    "Fire Surge": 0x00000FD2,
+    "Fire Whip": 0x00000FDC,
+    "Chaos Fire Whip": 0x000011A8,
+    "Poison Mist": 0x00001068,
+    "Toxic Mist": 0x00001072,
+    "Acid Surge": 0x0000107C,
+    "Flash Sweat": 0x000010D6,
+    "Iron Flesh": 0x000010CC,
+    "Power Within": 0x00001130,
+    "Undead Rapport": 0x00001108,
+    "Black Flame": 0x000011B2,
+    # Miracles
+    "Heal": 0x00001388,
+    "Great Heal Excerpt": 0x0000139C,
+    "Great Heal": 0x00001392,
+    "Soothing Sunlight": 0x000013A6,
+    "Replenishment": 0x000013B0,
+    "Bountiful Sunlight": 0x000013BA,
+    "Force": 0x000014B4,
+    "Wrath of the Gods": 0x000014BE,
+    "Emit Force": 0x000014C8,
+    "Magic Barrier": 0x000015E0,
+    "Great Magic Barrier": 0x000015EA,
+    "Homeward": 0x0000145A,
+    "Seek Guidance": 0x00001518,
+    "Karmic Justice": 0x00001644,
+    "Vow of Silence": 0x000016B2,
+    "Tranquil Walk of Peace": 0x000016A8,
+    "Lightning Spear": 0x0000157C,
+    "Great Lightning Spear": 0x00001586,
+    "Sunlight Spear": 0x00001590,
+    "Sunlight Blade": 0x0000170C,
+    "Darkmoon Blade": 0x00001716,
+    "Gravelord Sword Dance": 0x000013EC,
+    "Gravelord Greatsword Dance": 0x000013F6,
 }
 
 misc_items_table = {
