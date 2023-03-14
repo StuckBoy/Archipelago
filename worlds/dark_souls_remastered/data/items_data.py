@@ -669,6 +669,21 @@ dlc_misc_items_table = {
     "Silver Pendant": 0x000000DC,
 }
 
+upgrade_materials_table = {
+    "Titanite Shard": 0x000003E8,
+    "Large Titanite Shard": 0x000003F2,
+    "Titanite Chunk": 0x00000406,
+    "Titanite Slab": 0x0000042E,
+    "Green Titanite Shard": 0x000003FC,
+    "Blue Titanite Chunk": 0x00000410,
+    "Blue Titanite Slab": 0x00000438,
+    "Red Titanite Chunk": 0x00000424,
+    "Red Titanite Slab": 0x0000044C,
+    "White Titanite Chunk": 0x0000041A,
+    "White Titanite Slab": 0x00000442,
+    "Twinkling Titanite": 0x0000046A,
+    "Demon Titanite": 0x00000460,
+    "Dragon Scale": 0x00000456,
 }
 
 firekeeper_souls_table = {
