@@ -606,16 +606,16 @@ dlc_misc_items_table = {
 }
 
 embers_table = {
-    "Large Ember": 123450,
-    "Very Large Ember": 123450,
-    "Divine Ember": 123450,
-    "Large Divine Ember": 123450,
-    "Dark Ember": 123450,
-    "Large Magic Ember": 123450,
-    "Enchanted Ember": 123450,
-    "Crystal Ember": 123450,
-    "Large Flame Ember": 123450,
-    "Chaos Flame Ember": 123450,
+    "Large Ember": 0x00000329,
+    "Very Large Ember": 0x00000321,
+    "Divine Ember": 0x00000328,
+    "Large Divine Ember": 0x00000329,
+    "Dark Ember": 0x0000032A,
+    "Large Magic Ember": 0x00000326,
+    "Enchanted Ember": 0x0000327,
+    "Crystal Ember": 0x00000322,
+    "Large Flame Ember": 0x0000032C,
+    "Chaos Flame Ember": 0x0000032D,
 }
 
 key_items_table = {
