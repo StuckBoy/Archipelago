@@ -515,15 +515,16 @@ armor_table = {
 
 dlc_armor_table = {
     # Lord's Blades Set
-    "Porcelain Mask": 123450,
-    "Lord's Blade Robe": 123450,
-    "Lord's Blade Gloves": 123450,
-    "Lord's Blade Waistcloth": 123450,
+    "Porcelain Mask": 0x000A3930,
+    "Lord's Blade Robe": 0x000A3D18,
+    "Lord's Blade Gloves": 0x000A4100,
+    "Lord's Blade Waistcloth": 0x000A44E8,
     # Artorias' Set
-    "Helm of Artorias": 123450,
-    "Armor of Artorias": 123450,
-    "Gauntlets of Artorias": 123450,
-    "Leggings of Artorias": 123450,
+    "Helm of Artorias": 0x000A1220,
+    "Armor of Artorias": 0x000A1608,
+    "Gauntlets of Artorias": 0x000A19F0,
+    "Leggings of Artorias": 0x000A1DD8,
+    # TODO Determine Chester's Set IDs
     # Chester's Set
     "Snickering Top Hat": 123450,
     "Chester's Long Coat": 123450,
