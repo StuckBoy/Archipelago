@@ -497,6 +497,7 @@ armor_table = {
     "Knight Armor": 0x0005F758,
     "Knight Gauntlets": 0x0005FB40,
     "Knight Leggings": 0x0005FF28,
+    # TODO Should the no gear IDs be added?
 }
 
 dlc_armor_table = {
@@ -647,31 +648,31 @@ dlc_boss_souls_table = {
 }
 
 keys_table = {
-    "Master Key": 123450,
-    "Dungeon Cell Key": 123450,
-    "Undead Asylum F2 East Key": 123450,
-    "Undead Asylum F2 West Key": 123450,
-    "Big Pilgrim's Key": 123450,
-    "Residence Key": 123450,
-    "Mystery Key": 123450,
-    "Basement Key": 123450,
-    "Key to Depths": 123450,
-    "Sewer Chamber Key": 123450,
-    "Blighttown Key": 123450,
-    "Watchtower Basement Key": 123450,
-    "Key to New Londo Ruins": 123450,
-    "Key to the Seal": 123450,
-    "Cage Key": 123450,
-    "Archive Tower Cell Key": 123450,
-    "Archive Prison Extra Key": 123450,
-    "Archive Tower Giant Door Key": 123450,
-    "Archive Tower Giant Cell Key": 123450,
-    "Annex Key": 123450,
-    "Crest of Artorias": 123450,
-    "Peculiar Doll": 123450,
+    "Master Key": 0x00000834,
+    "Dungeon Cell Key": 0x000007DA,
+    "Undead Asylum F2 East Key": 0x000007DC,
+    "Undead Asylum F2 West Key": 0x000007E0,
+    "Big Pilgrim's Key": 0x000007DB,
+    "Residence Key": 0x000007E5,
+    "Mystery Key": 0x000007E1,
+    "Basement Key": 0x00007D1,
+    "Key to Depths": 0x000007DE,
+    "Sewer Chamber Key": 0x000007E2,
+    "Blighttown Key": 0x000007D7,
+    "Watchtower Basement Key": 0x000007E3,
+    "Key to New Londo Ruins": 0x000007D8,
+    "Key to the Seal": 0x000007DD,
+    "Cage Key": 0x000007D3,
+    "Archive Tower Cell Key": 0x000007D4,
+    "Archive Prison Extra Key": 0x000007E4,
+    "Archive Tower Giant Door Key": 0x000007D5,
+    "Archive Tower Giant Cell Key": 0x000007D6,
+    "Annex Key": 0x000007D9,
+    "Crest of Artorias": 0x000007D2,
+    "Peculiar Doll": 0x00000180,
 }
 
 dlc_keys_table = {
-    "Broken Pendant": 123450,
-    "Crest Key": 123450,
+    "Broken Pendant": 0x000009D8,
+    "Crest Key": 0x000007E6,
 }
