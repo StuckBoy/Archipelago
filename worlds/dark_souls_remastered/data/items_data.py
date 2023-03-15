@@ -665,6 +665,15 @@ misc_items_table = {
     "Black Eye Orb": 0x00000073,
 }
 
+# Stuff that isn't actually useful save for selling or trading
+misc_items_2_table = {
+    "Pendant": 0x00000178,
+    "Rubbish": 0x0000017C,
+    "Copper Coin": 0x0000017D,
+    "Silver Coin": 0x0000017E,
+    "Gold Coin": 0x0000017F,
+}
+
 dlc_misc_items_table = {
     "Silver Pendant": 0x000000DC,
 }
