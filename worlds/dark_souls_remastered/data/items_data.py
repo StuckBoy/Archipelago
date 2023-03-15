@@ -669,6 +669,26 @@ dlc_misc_items_table = {
     "Silver Pendant": 0x000000DC,
 }
 
+consumables_table = {
+    # There are two IDs, with the other being directly after this. Why?
+    "Estus Flask": 0x000000C8,
+    "Humanity": 0x0000015E, # There's a second at 0x000001F4
+    "Twin Humanities": 0x000001F5,
+    "Divine Blessing": 0x000000F0,
+    "Prism Stone": 0x00000172,
+    "Repair Powder": 0x00000118,
+    "Transient Curse": 0x00000138,
+    "Homeward Bone": 0x0000014A,
+    "Green Blossom": 0x00000104,
+    "Bloodred Moss Clump": 0x0000010E,
+    "Purple Moss Clump": 0x00000110,
+    "Blooming Purple Moss Clump": 0x0000110,
+    "Purging Stone": 0x00000112,
+    "Rotten Pine Resin": 0x00000139,
+    "Gold Pine Resin": 0x00000137,
+    "Egg Vermifuge": 0x00000113,
+    "Elizabeth's Mushroom": 0x000000E6,
+}
 upgrade_materials_table = {
     "Titanite Shard": 0x000003E8,
     "Large Titanite Shard": 0x000003F2,
