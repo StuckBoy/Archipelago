@@ -698,6 +698,23 @@ consumables_table = {
     "Egg Vermifuge": 0x00000113,
     "Elizabeth's Mushroom": 0x000000E6,
 }
+
+ammunition_table = {
+    "Standard Arrow": 0x001E8480,
+    "Large Arrow": 0x001E8868,
+    "Feather Arrow": 0x001E8C50,
+    "Fire Arrow": 0x001E9038,
+    "Poison Arrow": 0x001E9420,
+    "Moonlight Arrow": 0x001E9808,
+    "Wooden Arrow": 0x001E9BF0,
+    "Dragonslayer Arrow": 0x001E9FD8,
+    "Gough's Great Arrow": 0x001EA3C0,
+    "Standard Bolt": 0x00200B20,
+    "Heavy Bolt": 0x00200F08,
+    "Sniper Bolt": 0x002012F0,
+    "Wood Bolt": 0x002016D8,
+    "Lightning Bolt": 0x00201AC0,
+}
 upgrade_materials_table = {
     "Titanite Shard": 0x000003E8,
     "Large Titanite Shard": 0x000003F2,
