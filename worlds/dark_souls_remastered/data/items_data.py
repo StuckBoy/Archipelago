@@ -742,6 +742,14 @@ embers_table = {
     "Chaos Flame Ember": 0x0000032D,
 }
 
+bonfire_items_table = {
+    "Repairbox": 0x00000A2A,
+    "Weapon Smithbox": 0x00000A28,
+    "Armor Smithbox": 0x00000A29,
+    "Bottomless Box": 0x00000A30,
+    "Rite of Kindling": 0x00000A2F,
+}
+
 key_items_table = {
     "Lordvessel": 0x000009CE,
     # TODO Seath and FK are both Bequeathed Lord Souls, which is which?
