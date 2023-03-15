@@ -715,6 +715,17 @@ ammunition_table = {
     "Wood Bolt": 0x002016D8,
     "Lightning Bolt": 0x00201AC0,
 }
+
+thrown_items_table = {
+    "Throwing Knife": 0x00000122,
+    "Poison Throwing Knife": 0x00000123,
+    "Firebomb": 0x00000124,
+    "Dung Pie": 0x00000125,
+    "Alluring Skull": 0x00000126,
+    "Lloyd's Talisman": 0x00000128,
+    "Black Firebomb": 0x00000129,
+}
+
 upgrade_materials_table = {
     "Titanite Shard": 0x000003E8,
     "Large Titanite Shard": 0x000003F2,
