@@ -316,15 +316,15 @@ kiln_of_the_first_flame_table = {
 }
 
 the_valley_of_the_drakes_table = {
-    "VD: Astora's Straight Sword": 0,  # Guarded by the Undead Dragon
-    "VD: Dragon Crest Shield": 0,  # Guarded by the Undead Dragon
+    "VD: Astora's Straight Sword": 0x00033068,  # Guarded by the Undead Dragon
+    "VD: Dragon Crest Shield": 0x00163B68,  # Guarded by the Undead Dragon
     "VD: Brigand Hood": 0x0000C350,  # On a corpse past the Drake on the bridge
     "VD: Brigand Armor": 0x0000C738,  # On a corpse past the Drake on the bridge
     "VD: Brigand Gauntlets": 0x0000CB20,  # On a corpse past the Drake on the bridge
     "VD: Brigand Trousers": 0x0000CF08,  # On a corpse past the Drake on the bridge
-    "VD: Spider Shield": 0,  # On a corpse past the Drake on the bridge
-    "VD: Red Tearstone Ring": 0,  # On top of the tower with the ladder
-    "VD: Beatrice's Catalyst": 0,  # At the edge of a cliff after beating Four Kings
+    "VD: Spider Shield": 0x00164EF0,  # On a corpse past the Drake on the bridge
+    "VD: Red Tearstone Ring": 0x00000065,  # On top of the tower with the ladder
+    "VD: Beatrice's Catalyst": 0x0013DA08,  # At the edge of a cliff after beating Four Kings
     "VD: Witch Hat": 0x00053020,  # At the edge of a cliff after beating Four Kings
     "VD: Witch Cloak": 0x00053408,  # At the edge of a cliff after beating Four Kings
     "VD: Witch Gloves": 0x000537F0,  # At the edge of a cliff after beating Four Kings
