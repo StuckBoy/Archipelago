@@ -95,7 +95,7 @@ blighttown_table = {
 }
 
 quelaags_domain_table = {
-    "QD: Soul of Quelaag": 0,  # Quelaag reward
+    "QD: Soul of Quelaag": 0x000002BC,  # Quelaag reward
 }
 
 the_great_hollow_table = {
