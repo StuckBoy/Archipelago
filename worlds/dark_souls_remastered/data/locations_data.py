@@ -240,7 +240,7 @@ lower_new_londo_ruins_table = {
 
 # Requires Lordvessel to access
 the_dukes_archives_table = {
-    "DA: Broken Pendant": 0x000009D8,  # Dropped by Crystal Golem to right of doorway, but only spawns if Dusk has been rescued.
+    "DA: Broken Pendant": 0x000009D8,  # Dropped by Crystal Golem to right of doorway after rescuing Dusk
     "DA: Crystal Knight Shield": 0x000009D8,  # Mimic chest guarded by two Crystal Soldiers
     "DA: Large Magic Ember": 0x00000326,  # Chest in the first Seath arena after defeating him
     # TODO Figure out the logic so a majority of runs don't softlock or BK here.
