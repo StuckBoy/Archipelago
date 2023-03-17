@@ -304,7 +304,7 @@ armor_table = {
     # Big Hat's Set
     "Big Hat": 0x0005CC60,
     "Sage Robe": 0x0005D048,
-    "Traveling Gloves": 0x0005D430,
+    "Big Hat Traveling Gloves": 0x0005D430,  # TODO Verify ID
     "Traveling Boots": 0x0005D818,
     # Gold-Hemmed Black Set
     "Gold-Hemmed Black Hood": 0x000704E0,
@@ -436,6 +436,7 @@ armor_table = {
     # Holy Set
     "Priest's Hat": 0x0004BAF0,
     "Holy Robe": 0x0004BED8,
+    "Holy Traveling Gloves": 0x0005D821,  # TODO Verify ID
     "Holy Trousers": 0x0004C6A8,
     # Wanderer Set
     "Wanderer Hood": 0x00057E40,
