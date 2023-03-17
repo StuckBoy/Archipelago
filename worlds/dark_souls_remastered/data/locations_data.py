@@ -240,23 +240,23 @@ lower_new_londo_ruins_table = {
 
 # Requires Lordvessel to access
 the_dukes_archives_table = {
-    "DA: Broken Pendant": 0,  # Dropped by Crystal Golem to right of doorway, but only spawns if Dusk has been rescued.
-    "DA: Crystal Knight Shield": 0,  # Mimic chest guarded by two Crystal Soldiers
-    "DA: Large Magic Ember": 0,  # Chest in the first Seath arena after defeating him
+    "DA: Broken Pendant": 0x000009D8,  # Dropped by Crystal Golem to right of doorway, but only spawns if Dusk has been rescued.
+    "DA: Crystal Knight Shield": 0x000009D8,  # Mimic chest guarded by two Crystal Soldiers
+    "DA: Large Magic Ember": 0x00000326,  # Chest in the first Seath arena after defeating him
     # TODO Figure out the logic so a majority of runs don't softlock or BK here.
-    "DA: Archive Tower Cell Key": 0,  # Drops from the Serpent Soldier guarding your cell
-    # TODO Figure out the logic so a majority of runs don't *also* softlock or BK here.
-    "DA: Archive Prison Extra Key": 0,  # Dropped by one of the caged Crystal Soldiers
+    "DA: Archive Tower Cell Key": 0x000007D4,  # Drops from the Serpent Soldier guarding your cell
+    "DA: Archive Prison Extra Key": 0x000007E4,  # Dropped by one of the caged Crystal Soldiers
     "DA: Maiden Hood": 0x00064190,  # Inside a cell accessed through a hole
     "DA: Maiden Robe": 0x00064578,  # Inside a cell accessed through a hole
     "DA: Maiden Gloves": 0x00064960,  # Inside a cell accessed through a hole
     "DA: Maiden Skirt": 0x00064D48,  # Inside a cell accessed through a hole
-    "DA: White Seance Ring": 0,  # Inside a cell accessed through a hole
-    "DA: Archive Tower Giant Door Key": 0,  # Retrieved from a chest on a balcony
-    "DA: Soothing Sunlight": 0,  # Drops from a non-aggressive Pisaca
-    "DA: Bountiful Sunlight": 0,  # Drops from a non-aggressive Pisaca
-    "DA: Avelyn": 0,  # In a chest atop a tall bookcase
-    "DA: Enchanted Falchion": 0,  # Reward from Mimic
+    "DA: White Seance Ring": 0x00000072,  # Inside a cell accessed through a hole
+    # TODO Figure out the logic so a majority of runs don't *also* softlock or BK here.
+    "DA: Archive Tower Giant Door Key": 0x000007D5,  # Retrieved from a chest on a balcony
+    "DA: Soothing Sunlight": 0x000013A6,  # Drops from a non-aggressive Pisaca
+    "DA: Bountiful Sunlight": 0x000013BA,  # Drops from a non-aggressive Pisaca
+    "DA: Avelyn": 0x00131AA0,  # In a chest atop a tall bookcase
+    "DA: Enchanted Falchion": 0x00006205C,  # Reward from Mimic
     "DA: Crystalline Helm": 0x0001FBD0,
     "DA: Crystalline Armor": 0x0001FFB8,
     "DA: Crystalline Gauntlets": 0x000203A0,
