@@ -342,8 +342,8 @@ royal_wood_table = {
     "RW: Guardian Armor": 0x000A8B38,  # On a corpse hanging from a cliff near bushes
     "RW: Guardian Gauntlets": 0x000A8F20,  # Inside the stone tower
     "RW: Guardian Leggings": 0x000A9308,  # On a corpse near a flower bed
-    "RW: Soul of Artorias": 0,  # Reward from Artorias the Abysswalker o7
-    "RW: Calamity Ring": 0,  # Reward from Black Dragon Kalameet
+    "RW: Soul of Artorias": 0x000002C6,  # Reward from Artorias the Abysswalker o7
+    "RW: Calamity Ring": 0x00000096,  # Reward from Black Dragon Kalameet
 }
 
 # DLC
