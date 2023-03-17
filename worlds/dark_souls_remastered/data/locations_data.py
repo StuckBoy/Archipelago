@@ -286,10 +286,10 @@ lost_izalith_table = {
 }
 
 the_catacombs_table = {
-    "TC: Great Scythe": 0,  # On a platform near lever
-    "TC: Darkmoon Seance Ring": 0,  # Behind a fragile wall after Vamos
-    "TC: Rite of Kindling": 0,  # Reward from Pinwheel
-    "TC: Mace": 0,  # On a shortcut ledge
+    "TC: Great Scythe": 0x00118C30,  # On a platform near lever
+    "TC: Darkmoon Seance Ring": 0x00000095,  # Behind a fragile wall after Vamos
+    "TC: Rite of Kindling": 0x00000A2F,  # Reward from Pinwheel
+    "TC: Mace": 0x000C38E8,  # On a shortcut ledge
     "TC: Priest's Hat": 0x0004BAF0,  # On a shortcut ledge
     "TC: Holy Robe": 0x0004BED8,  # On a shortcut ledge
     "TC: Holy Trousers": 0x0004C6A8,  # On a shortcut ledge
