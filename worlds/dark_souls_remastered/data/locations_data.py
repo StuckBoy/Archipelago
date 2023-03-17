@@ -103,9 +103,8 @@ the_great_hollow_table = {
 }
 
 ash_lake_table = {
-    "Lake: Driftwood Corpse": 0,
-    "Lake: Great Magic Barrier": 0,  # Hidden log path into tree
-    "Lake: Dragon Greatsword": 0,  # Everlasting Dragon Tail
+    "Lake: Great Magic Barrier": 0x000015EA,  # Hidden log path into tree
+    "Lake: Dragon Greatsword": 0x000566D0,  # Everlasting Dragon Tail
 }
 
 sens_fortress_table = {
