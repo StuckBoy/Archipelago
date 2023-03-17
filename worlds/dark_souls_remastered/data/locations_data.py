@@ -274,9 +274,9 @@ demon_ruins_table = {
     "DR: Gold-Hemmed Black Cloak": 0x000708C8,  # On the altar next to Ceaseless Discharge
     "DR: Gold-Hemmed Black Gloves": 0x00070CB0,  # On the altar next to Ceaseless Discharge
     "DR: Gold-Hemmed Black Skirt": 0x00071098,  # On the altar next to Ceaseless Discharge
-    "DR: Large Flame Ember": 0,  # Chest guarded by several Rockworms
-    "DR: Demon's Catalyst": 0,  # Drops from Demon Firesage
-    "DR: Orange Charred Ring": 0,  # Drop from Centipede Demon
+    "DR: Large Flame Ember": 0x0000032C,  # Chest guarded by several Rockworms
+    "DR: Demon's Catalyst": 0x0013F178,  # Drops from Demon Firesage
+    "DR: Orange Charred Ring": 0x0000008B,  # Drop from Centipede Demon
 }
 
 # Requires Lordvessel to access
