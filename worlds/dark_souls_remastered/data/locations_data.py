@@ -1,4 +1,5 @@
 northern_undead_asylum_table = {
+    # TODO Prepare logic to prevent immediate BK or softlock
     "NUA: Dungeon Cell Key": 0x000007DA,  # On corpse dropped into cell
     # TODO How do these work?
     "NUA: Shield": 0,  # Equip Tutorial
@@ -164,17 +165,16 @@ painted_world_of_ariamis_table = {
     "PWA: Painting Guardian Robe": 0x0003D478,  # Chest past two Snow Rats in house
     "PWA: Painting Guardian Gloves": 0x0003D860,  # Chest past two Snow Rats in house
     "PWA: Painting Guardian Waistcloth": 0x0003DC48,  # Chest past two Snow Rats in house
-    "PWA: Velka's Rapier": 0,  # Ledge above annex
-    "PWA: Acid Surge": 0,  # Behind stairs near impaled corpses
-    "PWA: Fire Surge": 0,  # Drops from Engorged Hollow at top of stairs
-    "PWA: Annex Key": 0,  # Drops from Bonewheel behind an illusory wall
-    "PWA: Dark Ember": 0,  # Past the Harpies after opening the annex
-    "PWA: Vow of Silence": 0,  # Past an Engorged Hollow and a couple Harpies
+    "PWA: Velka's Rapier": 0x00093378,  # Ledge above annex
+    "PWA: Acid Surge": 0x0000107C,  # Behind stairs near impaled corpses
+    "PWA: Fire Surge": 0x00000FD2,  # Drops from Engorged Hollow at top of stairs
+    "PWA: Annex Key": 0x000007D9,  # Drops from Bonewheel behind an illusory wall
+    "PWA: Dark Ember": 0x0000032A,  # Past the Harpies after opening the annex
+    "PWA: Vow of Silence": 0x000016B2,  # Past an Engorged Hollow and a couple Harpies
     "PWA: Mask of Velka": 0x000249F0,  # On a corpse up some stairs near the Vow of Silence 1st item
     "PWA: Black Cleric Robe": 0x00024DD8,  # On a corpse up some stairs near the Vow of Silence 2nd item
     "PWA: Black Manchette": 0x000251C0,  # On a corpse up some stairs near the Vow of Silence 3rd item
     "PWA: Black Tights": 0x000255A8,  # On a corpse up some stairs near the Vow of Silence 4th item
-    "PWA: Velka's rapier": 0,  # On a corpse behind a wooden wall near the Velka set
     "PWA: Soul of Priscilla": 0x000002C3,  # Reward from Crossbreed Priscilla
     # TODO Should Xanthous King Jeremiah be in the loot table? It would add 4 additional checks
 }
