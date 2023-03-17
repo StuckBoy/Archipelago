@@ -41,12 +41,12 @@ lower_undead_burg_table = {
 }
 
 undead_parish_table = {
-    "UP: Knight Shield": 0,  # Lonely Balder Knight
-    "UP: Mystery Key": 0,  # In cellar behind boar
-    "UP: Basement Key": 0,  # Behind gate
-    "UP: Halberd": 0,  # Top of gate stairs before church
-    "UP: Fire Keeper Soul": 0,  # Church
-    "UP: Ring of Favor and Protection": 0,  # Drops from Knight Lautrec
+    "UP: Knight Shield": 0x001623F8,  # Lonely Balder Knight
+    "UP: Mystery Key": 0x000007E1,  # In cellar behind boar
+    "UP: Basement Key": 0x00007D1,  # Behind gate
+    "UP: Halberd": 0x0010C8E0,  # Top of gate stairs before church
+    "UP: Fire Keeper Soul": 0x00000189,  # Church
+    "UP: Ring of Favor and Protection": 0x0000008F,  # Drops from Knight Lautrec
 }
 
 depths_table = {
