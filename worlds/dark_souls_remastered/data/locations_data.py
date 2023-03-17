@@ -348,10 +348,10 @@ royal_wood_table = {
 
 # DLC
 oolacile_township_table = {
-    "OT: Silver Pendant": 0,  # Behind a special illusory wall that requires light
-    "OT: Dark Orb": 0,  # In the chest down the stairs
-    "OT: Crest Key": 0,  # Reward from Mimic
-    "OT: Dark Fog": 0,  # On a corpse next to a Corrupted Sorcerer
+    "OT: Silver Pendant": 0x000000DC,  # Behind a special illusory wall that requires light
+    "OT: Dark Orb": 0x00000E7E,  # In the chest down the stairs
+    "OT: Crest Key": 0x000007E6,  # Reward from Mimic
+    "OT: Dark Fog": 0x00000E92,  # On a corpse next to a Corrupted Sorcerer
     # TODO Chained Prisoner Drops?
     # TODO Carvings?
 }
