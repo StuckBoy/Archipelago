@@ -99,7 +99,7 @@ quelaags_domain_table = {
 }
 
 the_great_hollow_table = {
-    "GH: Cloranthy Ring": 0,  # Hollow tree dive
+    "GH: Cloranthy Ring": 0x00000068,  # Hollow tree dive
 }
 
 ash_lake_table = {
