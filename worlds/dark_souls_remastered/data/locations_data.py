@@ -207,13 +207,13 @@ darkroot_garden_table = {
 }
 
 darkroot_basin_table = {
-    "DB: Leather Armor": 0,  # Corpse halfway down 1st item
-    "DB: Leather Gloves": 0,  # Corpse halfway down 2nd item
-    "DB: Leather Boots": 0,  # Corpse halfway down 3rd item
-    "DB: Longbow": 0,  # Corpse halfway down 4th item
-    "DB: Grasscrest Shield": 0,  # Guarded by Black Knight near bottom
-    "DB: Havel's Ring": 0,  # Dropped by Havel the Rock
-    "DB: Dusk Crown Ring": 0,  # Dropped by Hydra
+    "DB: Leather Armor": 0x0003AD68,  # Corpse halfway down 1st item
+    "DB: Leather Gloves": 0x0003B150,  # Corpse halfway down 2nd item
+    "DB: Leather Boots": 0x0003B538,  # Corpse halfway down 3rd item
+    "DB: Longbow": 0x00125368,  # Corpse halfway down 4th item
+    "DB: Grass Crest Shield": 0x00162BC8,  # Guarded by Black Knight near bottom
+    "DB: Havel's Ring": 0x00000064,  # Dropped by Havel the Rock
+    "DB: Dusk Crown Ring": 0x00000074,  # Dropped by Hydra
     "DB: Knight Helm": 0x0005F370,  # Near shoreline of Hydra fight
     "DB: Knight Armor": 0x0005F758,  # Near shoreline of Hydra fight
     "DB: Knight Gauntlets": 0x0005FB40,  # Near shoreline of Hydra fight
