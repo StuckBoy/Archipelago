@@ -10,13 +10,13 @@ northern_undead_asylum_table = {
 }
 
 firelink_shrine_table = {
-    "FS: Binoculars": 0,  # Edge of graveyard
-    "FS: Zweihander": 0,  # Large gravestone #2
-    "FS: Morningstar": 0,  # Elevator shaft chest (shared w/Talisman)
-    "FS: Talisman": 0,  # Elevator shaft chest (shared w/Morningstar)
-    "FS: Winged Spear": 0,  # Large gravestone #1
-    "FS: Caduceus Round Shield": 0,  # Lower graveyard spot
-    "FS: Ring of Sacrifice": 0,  # Next to where Domhnall of Zena sits
+    "FS: Binoculars": 0x00000173,  # Edge of graveyard
+    "FS: Zweihander": 0x00055730,  # Large gravestone #2
+    "FS: Morning Star": 0x000C3CD0,  # Elevator shaft chest (shared w/Talisman)
+    "FS: Talisman": 0x0014C080,  # Elevator shaft chest (shared w/Morningstar)
+    "FS: Winged Spear": 0x000F4628,  # Large gravestone #1
+    "FS: Caduceus Round Shield": 0x001583D0,  # Lower graveyard spot
+    "FS: Ring of Sacrifice": 0x0000007E,  # Next to where Domhnall of Zena sits
 }
 
 undead_burg_table = {
