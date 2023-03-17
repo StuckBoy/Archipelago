@@ -266,7 +266,7 @@ the_dukes_archives_table = {
 # Requires Lordvessel to access
 crystal_cave_table = {
     # "CC: Moonlight Greatsword": 0,  # Drops when Seath's tail is cut off
-    "CC: Soul of Seath the Scaleless": 0,  # TODO Determine which Bequeathed Lord Soul this is.
+    "CC: Soul of Seath the Scaleless": 0x000009C7,  # TODO Determine which Bequeathed Lord Soul this is.
 }
 
 demon_ruins_table = {
