@@ -26,17 +26,17 @@ weapons_table = {
     "Broken Straight Sword": 0x000318F8,
     "Straight Sword Hilt": 0x00033C20,
     # Greatswords
-    "Greatsword of Artorias (Cursed)": 123450,
-    "Greatsword of Artorias": 123450,
-    "Great Lord Greatsword": 123450,
-    "Bastard Sword": 123450,
-    "Claymore": 123450,
-    "Man-Serpent Greatsword": 123450,
-    "Flamberge": 123450,
-    "Crystal Greatsword": 123450,
-    "Black Knight Sword": 123450,
-    "Stone Greatsword": 123450,
-    "Moonlight Greatsword": 123450,
+    "Greatsword of Artorias (Cursed)": 0x0004BED8,  # TODO Verify if this is the cursed sword
+    "Greatsword of Artorias": 0x0004C4B4,  # TODO Verify if this is the regular sword
+    "Great Lord Greatsword": 0x0004B320,
+    "Bastard Sword": 0x000493E0,
+    "Claymore": 0x000497C8,
+    "Man-Serpent Greatsword": 0x00049BB0,
+    "Flamberge": 0x00049F98,
+    "Crystal Greatsword": 0x0004A380,  # TODO Is this the right ID?
+    "Black Knight Sword": 0x0004BAF0,
+    "Stone Greatsword": 0x0004AB50,
+    "Moonlight Greatsword": 0x0004B708,
     # Ultra Greatswords
     "Greatsword": 0x00055B18,
     "Zweihander": 0x00055730,
