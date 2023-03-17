@@ -50,15 +50,15 @@ undead_parish_table = {
 }
 
 depths_table = {
-    "D: Large Ember": 0,  # Butcher chest
-    "D: Spider Shield": 0,
-    "D: Greataxe": 0,  # Corpse surrounded by rats
-    "D: Ring of the Evil Eye": 0,  # Corpse past two basilisks
-    "D: Blighttown Key": 0,  # Gaping Dragon reward
-    "D: Standard Helm": 0,  # Corpse in Gaping Dragon arena 1st item
-    "D: Hard Leather Armor": 0,  # Corpse in Gaping Dragon arena 2nd item
-    "D: Hard Leather Gauntlets": 0,  # Corpse in Gaping Dragon arena 3rd item
-    "D: Hard Leather Boots": 0,  # Corpse in Gaping Dragon Arena 4th item
+    "D: Large Ember": 0x00000329,  # Butcher chest
+    "D: Spider Shield": 0x00164EF0,  # Above the giant rat
+    "D: Greataxe": 0x000B71B0,  # Corpse surrounded by rats
+    "D: Ring of the Evil Eye": 0x0000008E,  # Corpse past two basilisks
+    "D: Blighttown Key": 0x000007D7,  # Gaping Dragon reward
+    "D: Standard Helm": 0x00033450,  # Corpse in Gaping Dragon arena 1st item
+    "D: Hard Leather Armor": 0x00033838,  # Corpse in Gaping Dragon arena 2nd item
+    "D: Hard Leather Gauntlets": 0x00033C20,  # Corpse in Gaping Dragon arena 3rd item
+    "D: Hard Leather Boots": 0x00034008,  # Corpse in Gaping Dragon Arena 4th item
 }
 
 blighttown_table = {
