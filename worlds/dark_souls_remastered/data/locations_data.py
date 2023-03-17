@@ -234,8 +234,8 @@ new_londo_ruins_table = {
 
 # Requires Key to the Seal to access
 lower_new_londo_ruins_table = {
-    "LNLR: Very Large Ember": 0,  # In a chest up the right doorway staircase
-    "LNLR: Soul of the Four Kings": 0,  # TODO Determine which Bequeathed Lord Soul this is.
+    "LNLR: Very Large Ember": 0x00000321,  # In a chest up the right doorway staircase
+    "LNLR: Soul of the Four Kings": 0x000009C6,  # TODO Determine which Bequeathed Lord Soul this is.
 }
 
 # Requires Lordvessel to access
