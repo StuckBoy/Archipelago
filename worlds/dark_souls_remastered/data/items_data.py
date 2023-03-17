@@ -47,6 +47,7 @@ weapons_table = {
     "Scimitar": 0x00061A80,
     "Quelaag's Furysword": 0x0006331C,
     "Falchion": 0x00061E68,
+    "Enchanted Falchion": 0x00006205C,
     "Shotel": 0x00062250,
     "Painting Guardian Sword": 0x00062E08,
     "Jagged Ghost Blade": 0x00062638,
@@ -189,6 +190,7 @@ shield_table = {
     "Warrior's Round Shield": 0x00164720,
     "Caduceus Round Shield": 0x001583D0,
     "Effigy Shield": 0x00895440,
+    "Crystal Knight Shield": 0x000009D8,
     # TODO Are ampersand's accepted?
     "Red and White Round Shield": 0x001685A0,
     "Cracked Round Shield": 0x00157430,
