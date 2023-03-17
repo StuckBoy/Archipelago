@@ -281,7 +281,7 @@ demon_ruins_table = {
 
 # Requires Lordvessel to access
 lost_izalith_table = {
-    "LI: Sunlight Maggot": 0,  # Dropped by either Solaire or the red-eyed Chaos Bug
+    "LI: Sunlight Maggot": 0x0002E630,  # Dropped by either Solaire or the red-eyed Chaos Bug
     "LI: Soul of Bed of Chaos": 0x000009C5,
 }
 
