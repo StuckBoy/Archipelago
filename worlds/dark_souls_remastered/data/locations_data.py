@@ -333,7 +333,7 @@ the_valley_of_the_drakes_table = {
 
 # DLC
 sanctuary_garden_table = {
-    "SG: Guardian Soul": 0,
+    "SG: Guardian Soul": 0x000002C5,
 }
 
 # DLC
