@@ -127,35 +127,35 @@ sens_fortress_table = {
 }
 
 anor_londo_table = {
-    "AL: Crystal Halberd": 0,  # Mimic chest near Duke's Archives
-    "AL: Ring of the Sun's Firstborn": 0,  # Next to Darkmoon Tomb bonfire
-    "AL: Great Magic Weapon": 0,  # Near fallen chandelier in chapel
-    "AL: Black Iron Helm": 0,  # Tarkus' corpse near painting 1st item
-    "AL: Black Iron Armor": 0,  # Tarkus' corpse near painting 2nd item
-    "AL: Black Iron Gauntlets": 0,  # Tarkus' corpse near painting 3rd item
-    "AL: Black Iron Leggings": 0,  # Tarkus' corpse near painting 4th item
-    "AL: Greatsword": 0,  # Tarkus' corpse near painting 5th item
-    "AL: Black Iron Greatshield": 0,  # Tarkus' corpse near painting 6th item
-    "AL: Havel's Helm": 0,  # Room behind fireplace chest
-    "AL: Havel's Armor": 0,  # Room behind fireplace chest
-    "AL: Havel's Gauntlets": 0,  # Room behind fireplace chest
-    "AL: Havel's Leggings": 0,  # Room behind fireplace chest
-    "AL: Havel's Greatshield": 0,  # Room behind fireplace chest
-    "AL: Dragon Tooth": 0,  # Room behind fireplace chest
-    "AL: Occult Club": 0,  # Room behind fireplace chest Mimic reward
-    "AL: Silver Knight Helm": 0,  # One of two chests in room guarded by two Silver Knights
-    "AL: Silver Knight Armor": 0,  # One of two chests in room guarded by two Silver Knights
-    "AL: Silver Knight Gauntlets": 0,  # One of two chests in room guarded by two Silver Knights
-    "AL: Silver Knight Leggings": 0,  # One of two chests in room guarded by two Silver Knights
-    "AL: Dragonslayer Greatbow": 0,  # Through the broken window
-    "AL: Hawk Ring": 0,  # Chest next to Giant Blacksmith
+    "AL: Crystal Halberd": 0x000002BF,  # Mimic chest near Duke's Archives
+    "AL: Ring of the Sun's Firstborn": 0x00000094,  # Next to Darkmoon Tomb bonfire
+    "AL: Great Magic Weapon": 0x00000C26,  # Near fallen chandelier in chapel
+    "AL: Black Iron Helm": 0x00011170,  # Tarkus' corpse near painting 1st item
+    "AL: Black Iron Armor": 0x00011558,  # Tarkus' corpse near painting 2nd item
+    "AL: Black Iron Gauntlets": 0x00011940,  # Tarkus' corpse near painting 3rd item
+    "AL: Black Iron Leggings": 0x00011D28,  # Tarkus' corpse near painting 4th item
+    "AL: Greatsword": 0x00055B18,  # Tarkus' corpse near painting 5th item
+    "AL: Black Iron Greatshield": 0x00895FF8,  # Tarkus' corpse near painting 6th item
+    "AL: Havel's Helm": 0x0006B6C0,  # Room behind fireplace chest
+    "AL: Havel's Armor": 0x0006BAA8,  # Room behind fireplace chest
+    "AL: Havel's Gauntlets": 0x0006BE90,  # Room behind fireplace chest
+    "AL: Havel's Leggings": 0x0006C278,  # Room behind fireplace chest
+    "AL: Havel's Greatshield": 0x0016F6E8,  # Room behind fireplace chest
+    "AL: Dragon Tooth": 0x000D07F0,  # Room behind fireplace chest
+    "AL: Occult Club": 0x000D07F0,  # Room behind fireplace chest Mimic reward
+    "AL: Silver Knight Helm": 0x000668A0,  # One of two chests in room guarded by two Silver Knights
+    "AL: Silver Knight Armor": 0x00066C88,  # One of two chests in room guarded by two Silver Knights
+    "AL: Silver Knight Gauntlets": 0x00067070,  # One of two chests in room guarded by two Silver Knights
+    "AL: Silver Knight Leggings": 0x00067458,  # One of two chests in room guarded by two Silver Knights
+    "AL: Dragonslayer Greatbow": 0x001E9FD8,  # Through the broken window
+    "AL: Hawk Ring": 0x00000077,  # Chest next to Giant Blacksmith
     # TODO How to handle O&S loot? Give everything? Duplicate the check between the souls?
     # Only dropped if you kill Smough first.
-    "AL: Leo Ring": 0,
-    "AL: Soul of Ornstein": 0,
+    "AL: Leo Ring": 0x00000090,
+    "AL: Soul of Ornstein": 0x000002C0,
     # Only dropped if you kill Ornstein first.
-    "AL: Soul of Smough": 0,
-    "AL: Lordvessel": 0,  # Given by Gwynevere
+    "AL: Soul of Smough": 0x000002C2,
+    "AL: Lordvessel": 0x000009CE,  # Given by Gwynevere
 }
 
 # Requires Peculiar Doll to access
