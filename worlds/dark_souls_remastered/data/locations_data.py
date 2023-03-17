@@ -358,10 +358,9 @@ oolacile_township_table = {
 
 # DLC
 chasm_of_the_abyss_table = {
-    "CA: Dark Bead": 0,  # Guarded by several Oolacile Residents and a Sorceress
-    "CA: Cleansing Greatshield": 0,  # Reward from saving Sif (best doggo)
-    "CA: Black Flame": 0,  # Guarded by several Giant Humanities
-    "CA: Soul of Manus": 0,  # Reward from Manus, Father of the Abyss
+    "CA: Dark Bead": 0x00000E88,  # Guarded by several Oolacile Residents and a Sorceress
+    "CA: Cleansing Greatshield": 0x00898AF0,  # Reward from saving Sif (best doggo)
+    "CA: Black Flame": 0x000011B2,  # Guarded by several Giant Humanities
+    "CA: Soul of Manus": 0x000002C7,  # Reward from Manus, Father of the Abyss
     # TODO Bloated Heads? Oolacile Catalyst?
 }
-
