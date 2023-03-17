@@ -1,11 +1,12 @@
 northern_undead_asylum_table = {
-    "NUA: Cell Corpse": 0,
-    "NUA: 1st Equipment Corpse": 0,  # Equip Tutorial
-    "NUA: 2nd Equipment Corpse": 0,
-    "NUA: Estus Flask": 0,  # Oscar's 1st item
-    "NUA: Undead Asylum F2 East Key": 0,  # Oscar's 2nd item
-    "NUA: Big Pilgrim's Key": 0,  # Asylum Demon 1st item
-    "NUA: Peculiar Doll": 0,  # Only available during revisit
+    "NUA: Dungeon Cell Key": 0x000007DA,  # On corpse dropped into cell
+    # TODO How do these work?
+    "NUA: Shield": 0,  # Equip Tutorial
+    "NUA: Weapon/Catalyst": 0,  # Equip Tutorial
+    "NUA: Estus Flask": 0x000000C8,  # Oscar's 1st item
+    "NUA: Undead Asylum F2 East Key": 0x000007DC,  # Oscar's 2nd item
+    "NUA: Big Pilgrim's Key": 0x000007DB,  # Asylum Demon 1st item
+    "NUA: Peculiar Doll": 0x00000180,  # Only available during revisit
 }
 
 firelink_shrine_table = {
