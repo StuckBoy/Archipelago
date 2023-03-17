@@ -300,11 +300,11 @@ the_catacombs_table = {
 }
 
 tomb_of_giants_table = {
-    "TG: Skull Lantern": 0,  # On a corpse in the pit below Patches
-    "TG: Large Divine Ember": 0,  # On a blacksmith corpse on the left path past the illusory wall
-    "TG: Effigy Shield": 0,  # At the end of the right path past the fog gate
-    "TG: Covetous Silver Serpent Ring": 0,  # On a corpse after a jump
-    "TG: Soul of Gravelord Nito": 0,
+    "TG: Skull Lantern": 0x00154D20,  # On a corpse in the pit below Patches
+    "TG: Large Divine Ember": 0x00000329,  # On a blacksmith corpse on the left path past the illusory wall
+    "TG: Effigy Shield": 0x00895440,  # At the end of the right path past the fog gate
+    "TG: Covetous Silver Serpent Ring": 0x0000007A,  # On a corpse after a jump
+    "TG: Soul of Gravelord Nito": 0x000009C4,
 }
 
 # Requires the Lordvessel and every lord soul
