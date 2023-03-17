@@ -180,11 +180,11 @@ painted_world_of_ariamis_table = {
 }
 
 darkroot_garden_table = {
-    "DG: Wolf Ring": 0,  # On ledge past a Great Stone Knight
-    "DG: Partizan": 0,  # In small passage next to a Tree Lizard
-    "DG: Soul of the Moonlight Butterfly": 0,  # Reward from Moonlight Butterfly
-    "DG: Basement Key": 0,  # In tower after Moonlight Butterfly
-    "DG: Divine Ember": 0,  # On crouching smith after Moonlight Butterfly
+    "DG: Wolf Ring": 0x00000092,  # On ledge past a Great Stone Knight
+    "DG: Partizan": 0x000F4A10,  # In small passage next to a Tree Lizard
+    "DG: Soul of the Moonlight Butterfly": 0x000002C1,  # Reward from Moonlight Butterfly
+    "DG: Basement Key": 0x00007D1,  # In tower after Moonlight Butterfly
+    "DG: Divine Ember": 0x00000328,  # On crouching smith after Moonlight Butterfly
     "DG: Elite Knight Helm": 0x00055730,  # On corpse surrounded by Great Stone Knights and Ents
     "DG: Elite Knight Armor": 0x00055B18,  # On corpse surrounded by Great Stone Knights and Ents
     "DG: Elite Knight Gauntlets": 0x00055F00,  # On corpse surrounded by Great Stone Knights and Ents
@@ -193,18 +193,17 @@ darkroot_garden_table = {
     "DG: Stone Armor": 0x0001D8A8,  # Chest after bridge and room with Alvina
     "DG: Stone Gauntlets": 0x0001DC90,  # Chest after bridge and room with Alvina
     "DG: Stone Leggings": 0x0001E078,  # Chest after bridge and room with Alvina
-    "DG: Black Bow of Pharis": 0,  # Drops from Pharis
-    "DG: Pharis' Hat": 0,  # Drops from Pharis
-    "DG: Dark Wood Grain Ring": 0,  # Drops from Shiva's ninja bodyguard
+    "DG: Black Bow of Pharis": 0x00125750,  # Drops from Pharis
+    "DG: Pharis' Hat": 0x0003A980,  # Drops from Pharis
+    "DG: Dark Wood Grain Ring": 0x00000080,  # Drops from Shiva's ninja bodyguard
     "DG: Eastern Helm": 0x000445C0,
     "DG: Eastern Armor": 0x000449A8,
     "DG: Eastern Gauntlets": 0x00044D90,
     "DG: Eastern Leggings": 0x00045178,
-    "DG: Item Near Cats (fextralife doesn't say what lmao)": 0,  # Past an open area containing several cats
-    "DG: Enchanted Ember": 0,  # Chest in pool of water surrounded by Large Mushroom People
+    "DG: Enchanted Ember": 0x00000328,  # Chest in pool of water surrounded by Large Mushroom People
     "DG: Soul of Sif": 0x000002BD,  # Reward from Sif
-    "DG: Covenant of Artorias": 0,  # Reward from Sif
-    "DG: Hornet Ring": 0,  # Behind Artorias' gravestone
+    "DG: Covenant of Artorias": 0x0000008A,  # Reward from Sif
+    "DG: Hornet Ring": 0x00000075,  # Behind Artorias' gravestone
 }
 
 darkroot_basin_table = {
