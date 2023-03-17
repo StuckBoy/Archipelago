@@ -20,10 +20,9 @@ firelink_shrine_table = {
 }
 
 undead_burg_table = {
-    "UB: Rubbish": 0,  # TODO Does this stack? Lower path after entrance
-    "UB: Wooden Shield": 0,  # Behind door near bonfire
-    "UB: Light Crossbow": 0,  # 2nd floor balcony near entrance
-    "UB: Claymore": 0,  # Bridge YOLO run
+    "UB: Wooden Shield": 0x001560A8,  # Behind door near bonfire
+    "UB: Light Crossbow": 0x001312D0,  # 2nd floor balcony near entrance
+    "UB: Claymore": 0x000497C8,  # Bridge YOLO run
 }
 
 lower_undead_burg_table = {
