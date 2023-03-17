@@ -108,22 +108,22 @@ ash_lake_table = {
 }
 
 sens_fortress_table = {
-    "SF: Scythe": 0,  # Tunnel behind Titanite Demon
-    "SF: Ring of Steel Protection": 0,  # Chest in room behind outside boulder staircase
-    "SF: Shotel": 0,  # On the ledge next to outdoor staircase
-    "SF: Covetous Gold Serpent Ring": 0,  # On windowsill corpse behind stacked boulder wall
-    "SF: Lightning Spear": 0,  # Mimic reward
-    "SF: Black Sorcerer Hat": 0,  # Corpse on Man-Serpent Mage platform 1st item
-    "SF: Black Sorcerer Cloak": 0,  # Corpse on Man-Serpent Mage platform 2nd item
-    "SF: Black Sorcerer Gauntlets": 0,  # Corpse on Man-Serpent Mage platform 3rd item
-    "SF: Black Sorcerer Boots": 0,  # Corpse on Man-Serpent Mage platform 4th item
-    "SF: Hush": 0,  # Corpse on Man-Serpent Mage platform 5th item
-    "SF: Slumbering Dragoncrest Ring": 0,  # Through hole in wall on Man-Serpent Mage platform
-    "SF: Flame Stoneplate Ring": 0,  # Chest behind two Balder Knights on top of the fortress
-    "SF: Ricard's Rapier": 0,  # Drops from Ricard the Archer on the stairs
-    "SF: Sniper Crossbow": 0,  # Corpse near Firebomb Giant
-    "SF: Cage Key": 0,  # On a corpse below the Crestfallen Merchant
-    "SF: Core of an Iron Golem": 0,
+    "SF: Scythe": 0x0010E438,  # Tunnel behind Titanite Demon
+    "SF: Ring of Steel Protection": 0x00000078,  # Chest in room behind outside boulder staircase
+    "SF: Shotel": 0x00062250,  # On the ledge next to outdoor staircase
+    "SF: Covetous Gold Serpent Ring": 0x00000079,  # On windowsill corpse behind stacked boulder wall
+    "SF: Lightning Spear": 0x000F4308,  # Mimic reward
+    "SF: Black Sorcerer Hat": 0x0009C400,  # Corpse on Man-Serpent Mage platform 1st item
+    "SF: Black Sorcerer Cloak": 0x0009C7E8,  # Corpse on Man-Serpent Mage platform 2nd item
+    "SF: Black Sorcerer Gauntlets": 0x0009CBD0,  # Corpse on Man-Serpent Mage platform 3rd item
+    "SF: Black Sorcerer Boots": 0x0009CFB8,  # Corpse on Man-Serpent Mage platform 4th item
+    "SF: Hush": 0x00000DB6,  # Corpse on Man-Serpent Mage platform 5th item
+    "SF: Slumbering Dragoncrest Ring": 0x0000007B,  # Through hole in wall on Man-Serpent Mage platform
+    "SF: Flame Stoneplate Ring": 0x00000069,  # Chest behind two Balder Knights on top of the fortress
+    "SF: Ricard's Rapier": 0x00093760,  # Drops from Ricard the Archer on the stairs
+    "SF: Sniper Crossbow": 0x00131E88,  # Corpse near Firebomb Giant
+    "SF: Cage Key": 0x000007D3,  # On a corpse below the Crestfallen Merchant
+    "SF: Core of an Iron Golem": 0x000002BF,
 }
 
 anor_londo_table = {
