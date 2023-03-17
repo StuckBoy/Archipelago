@@ -26,18 +26,18 @@ undead_burg_table = {
 }
 
 lower_undead_burg_table = {
-    "LUB: Mail Breaker": 0,
-    "LUB: Thief Mask": 0x000493E0,
-    "LUB: Black Leather Armor": 0x000497C8,
-    "LUB: Black Leather Gloves": 0x00049BB0,
-    "LUB: Black Leather Boots": 0x00049F98,
-    "LUB: Sorcerer Hat": 0x00035B60,
-    "LUB: Sorcerer Cloak": 0x00035F48,
-    "LUB: Sorcerer Gauntlets": 0x00036330,
-    "LUB: Sorcerer Boots": 0x00036718,
-    "LUB: Sorcerer's Catalyst": 0,
-    "LUB: Target Shield": 0,
-    "LUB: Key to Depths": 0,
+    "LUB: Mail Breaker": 0x000927C0,  # In one of the right rooms after ambush
+    "LUB: Thief Mask": 0x000493E0,  # In one of the right rooms after ambush
+    "LUB: Black Leather Armor": 0x000497C8,  # In one of the right rooms after ambush
+    "LUB: Black Leather Gloves": 0x00049BB0,  # In one of the right rooms after ambush
+    "LUB: Black Leather Boots": 0x00049F98,  # In one of the right rooms after ambush
+    "LUB: Target Shield": 0x00156C60,  # In one of the right rooms after ambush
+    "LUB: Sorcerer Hat": 0x00035B60,  # Behind Residence Key door in barrel
+    "LUB: Sorcerer Cloak": 0x00035F48,  # Behind Residence Key door in barrel
+    "LUB: Sorcerer Gauntlets": 0x00036330,  # Behind Residence Key door in barrel
+    "LUB: Sorcerer Boots": 0x00036718,  # Behind Residence Key door in barrel
+    "LUB: Sorcerer's Catalyst": 0x0013D620,  # Behind Residence Key door in barrel
+    "LUB: Key to Depths": 0x000007DE,  # Capra Demon reward
 }
 
 undead_parish_table = {
