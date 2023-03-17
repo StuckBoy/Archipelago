@@ -62,36 +62,36 @@ depths_table = {
 }
 
 blighttown_table = {
-    "B: Iato": 0,  # Corpse across the gap
-    "B: Shadow Mask": 0,  # Corpse near bonfire 1st item
-    "B: Shadow Garb": 0,  # Corpse near bonfire 2nd item
-    "B: Shadow Gauntlets": 0,  # Corpse near bonfire 3rd item
-    "B: Shadow Leggings": 0,  # Corpse near bonfire 4th item
-    "B: Eagle Shield": 0,  # Corpse at the end of the stone walkway
-    "B: Mask of the Sealer": 0,  # Corpse past Cragspider 1st item
-    "B: Crimson Robes": 0,  # Corpse past Cragspider 2nd item
-    "B: Crimson Gloves": 0,  # Corpse past Cragspider 3rd item
-    "B: Crimson Waistcloth": 0,  # Corpse past Cragspider 4th item
-    "B: Tin Banishment Catalyst": 0,  # Corpse past Cragspider 5th item
-    "B: Remedy": 0,  # Chest next to Crimson Set corpse
-    "B: Power Within": 0,  # Corpse below blowdart sniper
-    "B: Whip": 0,  # Corpse near fog gate
-    "B: Wanderer Hood": 0,  # Corpse next to blowdart sniper 1st item
-    "B: Wanderer Coat": 0,  # Corpse next to blowdart sniper 2nd item
-    "B: Wanderer Manchette": 0,  # Corpse next to blowdart sniper 3rd item
-    "B: Wanderer Boots": 0,  # Corpse next to blowdart sniper 4th item
-    "B: Falchion": 0,  # Corpse next to blowdart sniper 5th item
+    "B: Iaito": 0x0007A8F0,  # Corpse across the gap
+    "B: Shadow Mask": 0x0000EA60,  # Corpse near bonfire 1st item
+    "B: Shadow Garb": 0x0000EE48,  # Corpse near bonfire 2nd item
+    "B: Shadow Gauntlets": 0x0000F230,  # Corpse near bonfire 3rd item
+    "B: Shadow Leggings": 0x0000F618,  # Corpse near bonfire 4th item
+    "B: Eagle Shield": 0x0016E360,  # Corpse at the end of the stone walkway
+    "B: Mask of the Sealer": 0x000222E0,  # Corpse past Cragspider 1st item
+    "B: Crimson Robes": 0x000226C8,  # Corpse past Cragspider 2nd item
+    "B: Crimson Gloves": 0x00022AB0,  # Corpse past Cragspider 3rd item
+    "B: Crimson Waistcloth": 0x00022E98,  # Corpse past Cragspider 4th item
+    "B: Tin Banishment Catalyst": 0x0013DDF0,  # Corpse past Cragspider 5th item
+    "B: Remedy": 0x00000E1A,  # Chest next to Crimson Set corpse
+    "B: Power Within": 0x00001130,  # Corpse below blowdart sniper
+    "B: Whip": 0x00186A00,  # Corpse near fog gate
+    "B: Wanderer Hood": 0x00057E40,  # Corpse next to blowdart sniper 1st item
+    "B: Wanderer Coat": 0x00058228,  # Corpse next to blowdart sniper 2nd item
+    "B: Wanderer Manchette": 0x00058610,  # Corpse next to blowdart sniper 3rd item
+    "B: Wanderer Boots": 0x00589F8,  # Corpse next to blowdart sniper 4th item
+    "B: Falchion": 0x00061E68,  # Corpse next to blowdart sniper 5th item
     # TODO should the following item be randomized since it's guaranteed?
     # "B: Butcher Knife": 0,  # Maneater Mildred reward (must be in human form)
-    "B: Great Club": 0,  # Guarded by two Infested Barbarians
-    "B: Poison Mist": 0,  # Corpse near wall 1st item
-    "B: Tattered Cloth Hood": 0,  # Corpse near wall 2nd item
-    "B: Tattered Cloth Robe": 0,  # Corpse near wall 3rd item
-    "B: Tattered Cloth Manchette": 0,  # Corpse near wall 4th item
-    "B: Heavy Boots": 0,  # Corpse near wall 5th item
-    "B: Server": 0,  # Leech party corpse
-    "B: Plank Shield": 0,  # Corpse in tree alcove
-    "B: Key to New Londo Ruins": 0,  # Cave chest near Valley of Drakes
+    "B: Great Club": 0x000CF850,  # Guarded by two Infested Barbarians
+    "B: Poison Mist": 0x00001068,  # Corpse near wall 1st item
+    "B: Tattered Cloth Hood": 0x00038270,  # Corpse near wall 2nd item
+    "B: Tattered Cloth Robe": 0x00038658,  # Corpse near wall 3rd item
+    "B: Tattered Cloth Manchette": 0x00038A40,  # Corpse near wall 4th item
+    "B: Heavy Boots": 0x00038E28,  # Corpse near wall 5th item
+    "B: Server": 0x0006DDD0,  # Leech party corpse
+    "B: Plank Shield": 0x00157FE8,  # Corpse in tree alcove
+    "B: Key to New Londo Ruins": 0x000007D8,  # Cave chest near Valley of Drakes
 }
 
 quelaags_domain_table = {
