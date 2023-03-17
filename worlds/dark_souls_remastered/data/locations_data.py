@@ -364,3 +364,22 @@ chasm_of_the_abyss_table = {
     "CA: Soul of Manus": 0x000002C7,  # Reward from Manus, Father of the Abyss
     # TODO Bloated Heads? Oolacile Catalyst?
 }
+
+location_tables = [northern_undead_asylum_table, firelink_shrine_table, undead_burg_table, lower_undead_burg_table,
+                   undead_parish_table, depths_table, blighttown_table, quelaags_domain_table, the_great_hollow_table,
+                   ash_lake_table, sens_fortress_table, anor_londo_table, painted_world_of_ariamis_table,
+                   darkroot_garden_table, darkroot_basin_table, new_londo_ruins_table, lower_new_londo_ruins_table,
+                   the_dukes_archives_table, crystal_cave_table, demon_ruins_table, lost_izalith_table,
+                   the_catacombs_table, tomb_of_giants_table, kiln_of_the_first_flame_table,
+                   the_valley_of_the_drakes_table, sanctuary_garden_table, royal_wood_table, oolacile_township_table,
+                   chasm_of_the_abyss_table]
+
+location_dictionary = {**northern_undead_asylum_table, **firelink_shrine_table, **undead_burg_table,
+                       **lower_undead_burg_table, **undead_parish_table, **depths_table, **blighttown_table,
+                       **quelaags_domain_table, **the_great_hollow_table, **ash_lake_table, **sens_fortress_table,
+                       **anor_londo_table, **painted_world_of_ariamis_table, **darkroot_garden_table,
+                       **darkroot_basin_table, **new_londo_ruins_table, **lower_new_londo_ruins_table,
+                       **the_dukes_archives_table, **crystal_cave_table, **demon_ruins_table, **lost_izalith_table,
+                       **the_catacombs_table, **tomb_of_giants_table, **kiln_of_the_first_flame_table,
+                       **the_valley_of_the_drakes_table, **sanctuary_garden_table, **royal_wood_table,
+                       **oolacile_township_table, **chasm_of_the_abyss_table}

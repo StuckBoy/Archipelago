@@ -850,3 +850,16 @@ dlc_keys_table = {
     "Broken Pendant": 0x000009D8,
     "Crest Key": 0x000007E6,
 }
+
+item_tables = [weapons_table, dlc_weapons_table, shield_table, dlc_shields_table, armor_table, dlc_armor_table,
+               rings_table, dlc_rings_table, spells_table, misc_items_table, misc_items_2_table, dlc_misc_items_table,
+               consumables_table, ammunition_table, thrown_items_table, upgrade_materials_table, firekeeper_souls_table,
+               misc_souls_table, embers_table, bonfire_items_table, key_items_table, boss_souls_table,
+               dlc_boss_souls_table, keys_table, dlc_keys_table]
+
+item_dictionary = {**weapons_table, **dlc_weapons_table, **shield_table, **dlc_shields_table, **armor_table,
+                   **dlc_armor_table, **rings_table, **dlc_rings_table, **spells_table, **misc_items_table,
+                   **misc_items_2_table, **dlc_misc_items_table, **consumables_table, **ammunition_table,
+                   **thrown_items_table, **upgrade_materials_table, **firekeeper_souls_table, **misc_souls_table,
+                   **embers_table, **bonfire_items_table, **key_items_table, **boss_souls_table, **dlc_boss_souls_table,
+                   **keys_table, **dlc_keys_table}
