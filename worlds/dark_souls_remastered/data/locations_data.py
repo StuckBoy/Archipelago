@@ -225,11 +225,11 @@ darkroot_basin_table = {
 }
 
 new_londo_ruins_table = {
-    "NLR: Estoc": 0,  # Pot Corpse
-    "NLR: Firekeeper Soul": 0,  # Ghost YOLO run
-    "NLR: Parrying Dagger": 0,  # Corpse down a spiral staircase
-    "NLR: Key to the Seal": 0,  # Given/Dropped by Ingward
-    "NLR: Composite Bow": 0,  # Corpse up the spiral staircase near Ingward
+    "NLR: Estoc": 0x00092F90,  # Pot Corpse
+    "NLR: Fire Keeper Soul": 0x0000018A,  # Ghost YOLO run
+    "NLR: Parrying Dagger": 0x00018A88,  # Corpse down a spiral staircase
+    "NLR: Key to the Seal": 0x000007DD,  # Given/Dropped by Ingward
+    "NLR: Composite Bow": 0x00125F20,  # Corpse up the spiral staircase near Ingward
 }
 
 # Requires Key to the Seal to access
