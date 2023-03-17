@@ -84,6 +84,7 @@ weapons_table = {
     "Blacksmith Giant Hammer": 0x000C5FF8,
     "Mace": 0x000C38E8,
     "Morning Star": 0x000C3CD0,
+    "Occult Club": 0x000D07F0,
     "Warpick": 0x000C40B8,
     "Pickaxe": 0x000C44A0,
     "Blacksmith Hammer": 0x000C5C10,
@@ -105,12 +106,14 @@ weapons_table = {
     "Winged Spear": 0x000F4628,
     "Partizan": 0x000F4A10,
     "Dragonslayer Spear": 0x001009DC,
+    "Lightning Spear": 0x000F4308,  # Is this the weapon or the miracle?
     "Moonlight Butterfly Horn": 0x00101148,
     "Pike": 0x00100590,
     "Channeler's Trident": 0x000F51E0,
     "Demon's Spear": 0x000F4DF8,
     "Silver Knight Spear": 0x000F59B0,
     # Halberds
+    "Crystal Halberd": 0x000002BF,
     "Halberd": 0x0010C8E0,
     "Lifehunt Scythe": 0x00119338,
     "Lucerne": 0x0010E050,
@@ -150,7 +153,7 @@ weapons_table = {
     # Flames
     "Pyromancy Flame": 0x00145320,
     # TODO Can't determine ID, should this even be in the pool?
-    "Pyromancy Flame (Upgraded)": 123450,
+    "Pyromancy Flame (Upgraded)": 0,
     # Talismans
     "Talisman": 0x0014C080,
     "Canvas Talisman": 0x0014C468,
@@ -523,10 +526,10 @@ dlc_armor_table = {
     "Leggings of Artorias": 0x000A1DD8,
     # TODO Determine Chester's Set IDs
     # Chester's Set
-    "Snickering Top Hat": 123450,
-    "Chester's Long Coat": 123450,
-    "Chester's Gloves": 123450,
-    "Chester's Trousers": 123450,
+    # "Snickering Top Hat": 123450,
+    # "Chester's Long Coat": 123450,
+    # "Chester's Gloves": 123450,
+    # "Chester's Trousers": 123450,
     # Misc.
     "Bloated Head": 0x000AD570,
     "Bloated Sorcerer Head": 0x000AFC80,
@@ -648,7 +651,7 @@ spells_table = {
     "Karmic Justice": 0x00001644,
     "Vow of Silence": 0x000016B2,
     "Tranquil Walk of Peace": 0x000016A8,
-    "Lightning Spear": 0x0000157C,
+    "Lightning Spear": 0x0000157C,  # Is this the miracle or the weapon?
     "Great Lightning Spear": 0x00001586,
     "Sunlight Spear": 0x00001590,
     "Sunlight Blade": 0x0000170C,
@@ -682,7 +685,7 @@ dlc_misc_items_table = {
 consumables_table = {
     # There are two IDs, with the other being directly after this. Why?
     "Estus Flask": 0x000000C8,
-    "Humanity": 0x0000015E, # There's a second at 0x000001F4
+    "Humanity": 0x0000015E,  # There's a second at 0x000001F4
     "Twin Humanities": 0x000001F5,
     "Divine Blessing": 0x000000F0,
     "Prism Stone": 0x00000172,
@@ -748,10 +751,10 @@ firekeeper_souls_table = {
     "Soul of the Ash Maiden": 0x00000186,
     "Soul of the Darkmoon Knightess": 0x00000187,
     "Soul of a Daughter of Chaos": 0x00000188,
-    "Firekeeper Soul #1": 0x00000189,
-    "Firekeeper Soul #2": 0x0000018A,
-    "Firekeeper Soul #3": 0x0000018B,
-    "Firekeeper Soul #4": 0x0000018C,
+    "Fire Keeper Soul #1": 0x00000189,
+    "Fire Keeper Soul #2": 0x0000018A,
+    "Fire Keeper Soul #3": 0x0000018B,
+    "Fire Keeper Soul #4": 0x0000018C,
 }
 
 misc_souls_table = {
