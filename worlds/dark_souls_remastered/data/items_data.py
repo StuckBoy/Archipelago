@@ -162,7 +162,7 @@ weapons_table = {
     "Ivory Talisman": 0x0014CC38,
     "Sunlight Talisman": 0x0014D408,
     "Darkmoon Talisman": 0x0014D7F0,
-    "Velka's Talisman": 0x0014DBD8,
+    "Velka's Talisman": 0x0014DBD8
 }
 
 dlc_weapons_table = {
@@ -182,7 +182,7 @@ dlc_weapons_table = {
     "Gough's Greatbow": 0x0089A648,
     # Catalysts
     "Manus Catalyst": 0x008996A8,
-    "Oolacile Catalyst": 0x00899A90,
+    "Oolacile Catalyst": 0x00899A90
 }
 
 shield_table = {
@@ -231,12 +231,12 @@ shield_table = {
     "Giant Shield": 0x0016EB30,
     "Bonewheel Shield": 0x0016FAD0,
     "Stone Greatshield": 0x0016EF18,
-    "Havel's Greatshield": 0x0016F6E8,
+    "Havel's Greatshield": 0x0016F6E8
 }
 
 dlc_shields_table = {
     # Greatshields
-    "Cleansing Greatshield": 0x00898AF0,
+    "Cleansing Greatshield": 0x00898AF0
 }
 
 armor_table = {
@@ -534,7 +534,7 @@ dlc_armor_table = {
     # "Chester's Trousers": 123450,
     # Misc.
     "Bloated Head": 0x000AD570,
-    "Bloated Sorcerer Head": 0x000AFC80,
+    "Bloated Sorcerer Head": 0x000AFC80
 }
 
 rings_table = {
@@ -578,11 +578,11 @@ rings_table = {
     "Cat Covenant Ring": 0x00000067,
     "Ring of Fog": 0x0000007C,
     "Ring of Favor and Protection": 0x0000008F,
-    "Ring of the Evil Eye": 0x0000008E,
+    "Ring of the Evil Eye": 0x0000008E
 }
 
 dlc_rings_table = {
-    "Calamity Ring": 0x00000096,
+    "Calamity Ring": 0x00000096
 }
 
 spells_table = {
@@ -659,7 +659,7 @@ spells_table = {
     "Sunlight Blade": 0x0000170C,
     "Darkmoon Blade": 0x00001716,
     "Gravelord Sword Dance": 0x000013EC,
-    "Gravelord Greatsword Dance": 0x000013F6,
+    "Gravelord Greatsword Dance": 0x000013F6
 }
 
 misc_items_table = {
@@ -668,7 +668,7 @@ misc_items_table = {
     "Darksign": 0x00000075,
     "Dragon Head Stone": 0x00000179,
     "Dragon Torso Stone": 0x0000017A,
-    "Black Eye Orb": 0x00000073,
+    "Black Eye Orb": 0x00000073
 }
 
 # Stuff that isn't actually useful save for selling or trading
@@ -677,11 +677,11 @@ misc_items_2_table = {
     "Rubbish": 0x0000017C,
     "Copper Coin": 0x0000017D,
     "Silver Coin": 0x0000017E,
-    "Gold Coin": 0x0000017F,
+    "Gold Coin": 0x0000017F
 }
 
 dlc_misc_items_table = {
-    "Silver Pendant": 0x000000DC,
+    "Silver Pendant": 0x000000DC
 }
 
 consumables_table = {
@@ -702,7 +702,7 @@ consumables_table = {
     "Rotten Pine Resin": 0x00000139,
     "Gold Pine Resin": 0x00000137,
     "Egg Vermifuge": 0x00000113,
-    "Elizabeth's Mushroom": 0x000000E6,
+    "Elizabeth's Mushroom": 0x000000E6
 }
 
 ammunition_table = {
@@ -719,7 +719,7 @@ ammunition_table = {
     "Heavy Bolt": 0x00200F08,
     "Sniper Bolt": 0x002012F0,
     "Wood Bolt": 0x002016D8,
-    "Lightning Bolt": 0x00201AC0,
+    "Lightning Bolt": 0x00201AC0
 }
 
 thrown_items_table = {
@@ -729,7 +729,7 @@ thrown_items_table = {
     "Dung Pie": 0x00000125,
     "Alluring Skull": 0x00000126,
     "Lloyd's Talisman": 0x00000128,
-    "Black Firebomb": 0x00000129,
+    "Black Firebomb": 0x00000129
 }
 
 upgrade_materials_table = {
@@ -746,7 +746,7 @@ upgrade_materials_table = {
     "White Titanite Slab": 0x00000442,
     "Twinkling Titanite": 0x0000046A,
     "Demon Titanite": 0x00000460,
-    "Dragon Scale": 0x00000456,
+    "Dragon Scale": 0x00000456
 }
 
 firekeeper_souls_table = {
@@ -756,7 +756,7 @@ firekeeper_souls_table = {
     "Fire Keeper Soul #1": 0x00000189,
     "Fire Keeper Soul #2": 0x0000018A,
     "Fire Keeper Soul #3": 0x0000018B,
-    "Fire Keeper Soul #4": 0x0000018C,
+    "Fire Keeper Soul #4": 0x0000018C
 }
 
 misc_souls_table = {
@@ -769,7 +769,7 @@ misc_souls_table = {
     "Soul of a Brave Warrior": 0x00000196,
     "Large Soul of a Brave Warrior": 0x00000197,
     "Soul of a Hero": 0x00000198,
-    "Soul of a Great Hero": 0x00000199,
+    "Soul of a Great Hero": 0x00000199
 }
 
 embers_table = {
@@ -782,7 +782,7 @@ embers_table = {
     "Enchanted Ember": 0x0000327,
     "Crystal Ember": 0x00000322,
     "Large Flame Ember": 0x0000032C,
-    "Chaos Flame Ember": 0x0000032D,
+    "Chaos Flame Ember": 0x0000032D
 }
 
 bonfire_items_table = {
@@ -791,16 +791,23 @@ bonfire_items_table = {
     "Armor Smithbox": 0x00000A29,
     "Bottomless Box": 0x00000A30,
     "Rite of Kindling": 0x00000A2F,
+    "Lordvessel": 0x000009CE
 }
 
-key_items_table = {
-    "Lordvessel": 0x000009CE,
-    # TODO Seath and FK are both Bequeathed Lord Souls, which is which?
-    "Soul of the Four Kings": 0x000009C6,
-    "Soul of Seath the Scaleless": 0x000009C7,
-    # TODO Nito and BoC are both Lord Souls, which is which?
-    "Soul of Gravelord Nito": 0x000009C4,
-    "Soul of Bed of Chaos": 0x000009C5,
+key_items_list = {
+    "Dungeon Cell Key",  # Lets you you explore NUA
+    "Peculiar Doll",  # Lets you explore PWA
+    "Big Pilgrim's Key",  # Lets you leave NUA
+    "Key to the Seal",  # Lets you explore LNLR
+    "Covenant of Artorias",  # Lets you reach Four Kings
+    "Lordvessel",  # Lets you warp & access yellow fog doors
+    "Soul of the Four Kings",  # One of four lord souls
+    "Soul of Seath the Scaleless",  # One of four lord souls
+    "Soul of Gravelord Nito",  # One of four lord souls
+    "Soul of Bed of Chaos",  # One of four lord souls
+    "Archive Tower Cell Key",  # Lets you leave the cell in DA
+    "Archive Tower Giant Door Key",  # Lets you resume exploring DA
+    "Broken Pendant"  # Lets you access the DLC areas
 }
 
 boss_souls_table = {
@@ -812,6 +819,12 @@ boss_souls_table = {
     "Soul of Smough": 0x000002C2,
     "Soul of Sif": 0x000002BD,
     "Soul of Priscilla": 0x000002C3,
+    # TODO Seath and FK are both Bequeathed Lord Souls, which is which?
+    "Soul of the Four Kings": 0x000009C6,
+    "Soul of Seath the Scaleless": 0x000009C7,
+    # TODO Nito and BoC are both Lord Souls, which is which?
+    "Soul of Gravelord Nito": 0x000009C4,
+    "Soul of Bed of Chaos": 0x000009C5,
     "Soul of Gwyn, Lord of Cinder": 0x000002BE,
 }
 
@@ -823,7 +836,7 @@ dlc_boss_souls_table = {
 
 keys_table = {
     "Master Key": 0x00000834,
-    "Dungeon Cell Key": 0x000007DA,
+    "Dungeon Cell Key": 0x000007DA,  # Immediate BK item
     "Undead Asylum F2 East Key": 0x000007DC,
     "Undead Asylum F2 West Key": 0x000007E0,
     "Big Pilgrim's Key": 0x000007DB,

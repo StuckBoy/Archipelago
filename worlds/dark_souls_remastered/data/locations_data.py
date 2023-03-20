@@ -202,7 +202,7 @@ darkroot_garden_table = {
     "DG: Eastern Leggings": 0x00045178,
     "DG: Enchanted Ember": 0x00000328,  # Chest in pool of water surrounded by Large Mushroom People
     "DG: Soul of Sif": 0x000002BD,  # Reward from Sif
-    "DG: Covenant of Artorias": 0x0000008A,  # Reward from Sif
+    "DG: Covenant of Artorias": 0x0000008A,  # Reward from Sif, needed for Four Kings
     "DG: Hornet Ring": 0x00000075,  # Behind Artorias' gravestone
 }
 
@@ -235,7 +235,11 @@ new_londo_ruins_table = {
 # Requires Key to the Seal to access
 lower_new_londo_ruins_table = {
     "LNLR: Very Large Ember": 0x00000321,  # In a chest up the right doorway staircase
-    "LNLR: Soul of the Four Kings": 0x000009C6,  # TODO Determine which Bequeathed Lord Soul this is.
+}
+
+# Requires Covenant of Artorias to access
+the_abyss_table = {
+    "TA: Soul of the Four Kings": 0x000009C6,  # TODO Determine which Bequeathed Lord Soul this is.
 }
 
 # Requires Lordvessel to access
@@ -369,7 +373,7 @@ location_tables = [northern_undead_asylum_table, firelink_shrine_table, undead_b
                    undead_parish_table, depths_table, blighttown_table, quelaags_domain_table, the_great_hollow_table,
                    ash_lake_table, sens_fortress_table, anor_londo_table, painted_world_of_ariamis_table,
                    darkroot_garden_table, darkroot_basin_table, new_londo_ruins_table, lower_new_londo_ruins_table,
-                   the_dukes_archives_table, crystal_cave_table, demon_ruins_table, lost_izalith_table,
+                   the_abyss_table, the_dukes_archives_table, crystal_cave_table, demon_ruins_table, lost_izalith_table,
                    the_catacombs_table, tomb_of_giants_table, kiln_of_the_first_flame_table,
                    the_valley_of_the_drakes_table, sanctuary_garden_table, royal_wood_table, oolacile_township_table,
                    chasm_of_the_abyss_table]
@@ -379,7 +383,7 @@ location_dictionary = {**northern_undead_asylum_table, **firelink_shrine_table, 
                        **quelaags_domain_table, **the_great_hollow_table, **ash_lake_table, **sens_fortress_table,
                        **anor_londo_table, **painted_world_of_ariamis_table, **darkroot_garden_table,
                        **darkroot_basin_table, **new_londo_ruins_table, **lower_new_londo_ruins_table,
-                       **the_dukes_archives_table, **crystal_cave_table, **demon_ruins_table, **lost_izalith_table,
-                       **the_catacombs_table, **tomb_of_giants_table, **kiln_of_the_first_flame_table,
-                       **the_valley_of_the_drakes_table, **sanctuary_garden_table, **royal_wood_table,
-                       **oolacile_township_table, **chasm_of_the_abyss_table}
+                       **the_abyss_table, **the_dukes_archives_table, **crystal_cave_table, **demon_ruins_table,
+                       **lost_izalith_table, **the_catacombs_table, **tomb_of_giants_table,
+                       **kiln_of_the_first_flame_table, **the_valley_of_the_drakes_table, **sanctuary_garden_table,
+                       **royal_wood_table, **oolacile_township_table, **chasm_of_the_abyss_table}
