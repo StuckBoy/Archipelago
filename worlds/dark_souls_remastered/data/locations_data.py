@@ -2,8 +2,8 @@ northern_undead_asylum_table = {
     # TODO Prepare logic to prevent immediate BK or softlock
     "NUA: Dungeon Cell Key": 0x000007DA,  # On corpse dropped into cell
     # TODO How do these work?
-    "NUA: Shield": 0,  # Equip Tutorial
-    "NUA: Weapon/Catalyst": 0,  # Equip Tutorial
+    # "NUA: Shield": 0,  # Equip Tutorial
+    # "NUA: Weapon/Catalyst": 0,  # Equip Tutorial
     "NUA: Estus Flask": 0x000000C8,  # Oscar's 1st item
     "NUA: Undead Asylum F2 East Key": 0x000007DC,  # Oscar's 2nd item
     "NUA: Big Pilgrim's Key": 0x000007DB,  # Asylum Demon 1st item
@@ -152,10 +152,10 @@ anor_londo_table = {
     "AL: Hawk Ring": 0x00000077,  # Chest next to Giant Blacksmith
     # TODO How to handle O&S loot? Give everything? Duplicate the check between the souls?
     # Only dropped if you kill Smough first.
-    "AL: Leo Ring": 0x00000090,
-    "AL: Soul of Ornstein": 0x000002C0,
+    # "AL: Leo Ring": 0x00000090,
+    # "AL: Soul of Ornstein": 0x000002C0,
     # Only dropped if you kill Ornstein first.
-    "AL: Soul of Smough": 0x000002C2,
+    # "AL: Soul of Smough": 0x000002C2,
     "AL: Lordvessel": 0x000009CE,  # Given by Gwynevere
 }
 

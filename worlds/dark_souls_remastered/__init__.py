@@ -3,7 +3,7 @@ from typing import Dict
 
 from .Items import DarkSoulsRemasteredItem
 from .Locations import DarkSoulsRemasteredLocation
-from .data.items_data import weapons_table, item_dictionary, key_items_list
+from .data.items_data import weapons_upgrade_5_table, weapons_upgrade_15_table, item_dictionary, key_items_list
 from .data.locations_data import location_dictionary, northern_undead_asylum_table, firelink_shrine_table, \
     undead_burg_table, lower_undead_burg_table, undead_parish_table, depths_table, blighttown_table, \
     quelaags_domain_table, the_great_hollow_table, ash_lake_table, sens_fortress_table, anor_londo_table, \
@@ -65,7 +65,7 @@ class DarkSoulsRemasteredWorld(World):
 
         if name in key_items_list:
             item_classification = ItemClassification.progression
-        elif name in weapons_table:
+        elif name in weapons_upgrade_15_table or name in weapons_upgrade_5_table:
             item_classification = ItemClassification.useful
         else:
             item_classification = ItemClassification.filler
@@ -118,12 +118,11 @@ class DarkSoulsRemasteredWorld(World):
                                                             northern_undead_asylum_region))
         # Firelink Shrine
         self.multiworld.get_entrance("Goto Firelink Shrine", self.player).connect(firelink_shrine_region)
+        firelink_shrine_region.exits.append(Entrance(self.player, "Goto Undead Burg", firelink_shrine_region))
+        firelink_shrine_region.exits.append(Entrance(self.player, "Goto New Londo Ruins", firelink_shrine_region))
+        firelink_shrine_region.exits.append(Entrance(self.player, "Goto The Catacombs", firelink_shrine_region))
         firelink_shrine_region.exits.append(Entrance(self.player, "Goto Kiln of the First Flame",
                                                      firelink_shrine_region))
-        firelink_shrine_region.exits.append(Entrance(self.player, "Goto The Catacombs", firelink_shrine_region))
-        firelink_shrine_region.exits.append(Entrance(self.player, "Goto New Londo Ruins", firelink_shrine_region))
-        firelink_shrine_region.exits.append(Entrance(self.player, "Goto Undead Parish", firelink_shrine_region))
-        firelink_shrine_region.exits.append(Entrance(self.player, "Goto Undead Burg", firelink_shrine_region))
 
         # Kiln of the First Flame
         self.multiworld.get_entrance("Goto Kiln of the First Flame", self.player). \
@@ -140,31 +139,54 @@ class DarkSoulsRemasteredWorld(World):
         self.multiworld.get_entrance("Goto New Londo Ruins", self.player).connect(new_londo_ruins_region)
         new_londo_ruins_region.exits.append(Entrance(self.player, "Goto Lower New Londo Ruins",
                                                      new_londo_ruins_region))
-        new_londo_ruins_region.exits.append(Entrance(self.player, "Goto Valley of Drakes",
+        # TODO Move ownership to VoD
+        new_londo_ruins_region.exits.append(Entrance(self.player, "Upper shortcut to Valley of Drakes",
                                                      new_londo_ruins_region))
 
         # Lower New Londo Ruins
         self.multiworld.get_entrance("Goto Lower New Londo Ruins", self.player).connect(lower_new_londo_ruins_region)
-        lower_new_londo_ruins_region.exits.append(Entrance(self.player, "Goto Valley of Drakes",
-                                                           lower_new_londo_ruins_region))
         lower_new_londo_ruins_region.exits.append(Entrance(self.player, "Goto The Abyss", the_abyss_region))
+
+        # Not possible until you have the Key to the Seal
+        lower_new_londo_ruins_region.exits.append(Entrance(self.player, "Lower shortcut to Valley of Drakes",
+                                                           lower_new_londo_ruins_region))
 
         # The Abyss
         self.multiworld.get_entrance("Goto The Abyss", self.player).connect(the_abyss_region)
 
-        # Valley of Drakes
-        self.multiworld.get_entrance("Goto Valley of Drakes", self.player).connect(the_valley_of_the_drakes_region)
+        # Undead Burg
+        self.multiworld.get_entrance("Goto Undead Burg", self.player).connect(undead_burg_region)
+        undead_burg_region.exits.append(Entrance(self.player, "Goto Undead Parish", undead_burg_region))
+        undead_burg_region.exits.append(Entrance(self.player, "Goto Lower Undead Burg", undead_burg_region))
+
+        undead_burg_region.exits.append(Entrance(self.player, "Shortcut to Darkroot Basin", undead_burg_region))
 
         # Undead Parish
         self.multiworld.get_entrance("Goto Undead Parish", self.player).connect(undead_parish_region)
-        undead_parish_region.exits.append(Entrance(self.player, "Goto Undead Burg", undead_parish_region))
-        undead_parish_region.exits.append(Entrance(self.player, "Goto Sen's Fortress", undead_parish_region))
+        undead_parish_region.exits.append(Entrance(self.player, "Elevator to Firelink Shrine", undead_parish_region))
+        self.multiworld.get_entrance("Elevator to Firelink Shrine", self.player).connect(firelink_shrine_region)
         undead_parish_region.exits.append(Entrance(self.player, "Goto Darkroot Garden", undead_parish_region))
+        undead_parish_region.exits.append(Entrance(self.player, "Goto Sen's Fortress", undead_parish_region))
 
-        # Undead Burg
-        self.multiworld.get_entrance("Goto Undead Burg", self.player).connect(undead_burg_region)
-        undead_burg_region.exits.append(Entrance(self.player, "Goto Lower Undead Burg", undead_burg_region))
-        undead_burg_region.exits.append(Entrance(self.player, "Goto Darkroot Basin", undead_burg_region))
+        # Darkroot Garden
+        self.multiworld.get_entrance("Goto Darkroot Garden", self.player).connect(darkroot_garden_region)
+        darkroot_garden_region.exits.append(Entrance(self.player, "Goto Darkroot Basin", darkroot_garden_region))
+
+        # Darkroot Basin
+        self.multiworld.get_entrance("Goto Darkroot Basin", self.player).connect(darkroot_basin_region)
+        self.multiworld.get_entrance("Shortcut to Darkroot Basin", self.player).connect(darkroot_basin_region)
+        # TODO Should DLC be a toggle?
+        darkroot_basin_region.exits.append(Entrance(self.player, "Goto Sanctuary Garden", darkroot_basin_region))
+        darkroot_basin_region.exits.append(Entrance(self.player, "Goto Valley of Drakes", darkroot_basin_region))
+
+        # Valley of Drakes
+        self.multiworld.get_entrance("Goto Valley of Drakes", self.player).connect(the_valley_of_the_drakes_region)
+        self.multiworld.get_entrance("Upper shortcut to Valley of Drakes", self.player)\
+            .connect(the_valley_of_the_drakes_region)
+        self.multiworld.get_entrance("Lower shortcut to Valley of Drakes", self.player) \
+            .connect(the_valley_of_the_drakes_region)
+        the_valley_of_the_drakes_region.exits.append(Entrance(self.player, "Valley entrance to Blighttown",
+                                                              the_valley_of_the_drakes_region))
 
         # Lower Undead Burg
         self.multiworld.get_entrance("Goto Lower Undead Burg", self.player).connect(lower_undead_burg_region)
@@ -176,6 +198,7 @@ class DarkSoulsRemasteredWorld(World):
 
         # Blighttown
         self.multiworld.get_entrance("Goto Blighttown", self.player).connect(blighttown_region)
+        self.multiworld.get_entrance("Valley entrance to Blighttown", self.player).connect(blighttown_region)
         blighttown_region.exits.append(Entrance(self.player, "Goto Quelaag's Domain", blighttown_region))
         blighttown_region.exits.append(Entrance(self.player, "Goto The Great Hollow", blighttown_region))
 
@@ -196,12 +219,12 @@ class DarkSoulsRemasteredWorld(World):
 
         # Anor Londo
         self.multiworld.get_entrance("Goto Anor Londo", self.player).connect(anor_londo_region)
-        anor_londo_region.exits.append(Entrance(self.player, "Goto Painted Worlf of Ariamis", anor_londo_region))
+        anor_londo_region.exits.append(Entrance(self.player, "Goto Painted World of Ariamis", anor_londo_region))
         anor_londo_region.exits.append(Entrance(self.player, "Goto Duke's Archives", anor_londo_region))
 
         # Painted World
-        self.multiworld.get_entrance("Goto Painted World of Ariamis", self.player). \
-            connect(painted_world_of_ariamis_region)
+        self.multiworld.get_entrance("Goto Painted World of Ariamis", self.player) \
+            .connect(painted_world_of_ariamis_region)
 
         # Duke's Archives
         self.multiworld.get_entrance("Goto Duke's Archives", self.player).connect(the_dukes_archives_region)
@@ -210,21 +233,12 @@ class DarkSoulsRemasteredWorld(World):
         # Crystal Cave
         self.multiworld.get_entrance("Goto Crystal Cave", self.player).connect(crystal_cave_region)
 
-        # Darkroot Garden
-        self.multiworld.get_entrance("Goto Darkroot Garden", self.player).connect(darkroot_garden_region)
-
         # The Great Hollow
         self.multiworld.get_entrance("Goto The Great Hollow", self.player).connect(the_great_hollow_region)
         the_great_hollow_region.exits.append(Entrance(self.player, "Goto Ash Lake", the_great_hollow_region))
 
         # Ash Lake
         self.multiworld.get_entrance("Goto Ash Lake", self.player).connect(ash_lake_region)
-
-        # Darkroot Basin
-        self.multiworld.get_entrance("Goto Darkroot Basin", self.player).connect(darkroot_basin_region)
-
-        # TODO Should DLC be a toggle?
-        darkroot_basin_region.exits.append(Entrance(self.player, "Goto Sanctuary Garden", darkroot_basin_region))
 
         # Sanctuary Garden
         self.multiworld.get_entrance("Goto Sanctuary Garden", self.player).connect(sanctuary_garden_region)
@@ -250,8 +264,8 @@ class DarkSoulsRemasteredWorld(World):
                 if region_name == "Menu":
                     add_item_rule(location, lambda item: not item.advancement)
                 new_region.locations.append(location)
-            self.multiworld.regions.append(new_region)
-            return new_region
+        self.multiworld.regions.append(new_region)
+        return new_region
 
     def fill_slot_data(self) -> Dict[str, object]:
         item_dictionary_copy = item_dictionary.copy()
@@ -291,44 +305,49 @@ class DarkSoulsRemasteredWorld(World):
         # TODO How to prevent access to Sen's Fortress before both bells are rung?
         # Quelaag has a unique soul, but the Bell Gargoyles do not.
         set_rule(self.multiworld.get_entrance("Goto Firelink Shrine", self.player),
-                 lambda state: state.has("Big Pilgrim's Key"))
+                 lambda state: state.has("Big Pilgrim's Key", self.player))
         set_rule(self.multiworld.get_entrance("Goto Kiln of the First Flame", self.player),
                  lambda state: state.has("Soul of the Four Kings", self.player) and
                                state.has("Soul of Gravelord Nito", self.player) and
                                state.has("Soul of Bed of Chaos", self.player) and
                                state.has("Soul of Seath the Scaleless", self.player) and
                                state.has("Lordvessel", self.player))
+        set_rule(self.multiworld.get_entrance("Goto Lower Undead Burg", self.player),
+                 lambda state: state.has("Basement Key", self.player))
+        set_rule(self.multiworld.get_entrance("Goto Depths", self.player),
+                 lambda state: state.has("Key to Depths", self.player))
+        set_rule(self.multiworld.get_entrance("Goto Blighttown", self.player),
+                 lambda state: state.has("Blighttown Key", self.player))
         set_rule(self.multiworld.get_entrance("Goto Painted World of Ariamis", self.player),
                  lambda state: state.has("Peculiar Doll", self.player))
         set_rule(self.multiworld.get_entrance("Goto Duke's Archives", self.player),
                  lambda state: state.has("Lordvessel", self.player))
-        set_rule(self.multiworld.get_entrance("Goto Tomb of Giants", self.player),
-                 lambda state: state.has("Lordvessel", self.player))
         set_rule(self.multiworld.get_entrance("Goto Lost Izalith", self.player),
                  lambda state: state.has("Lordvessel", self.player))
         set_rule(self.multiworld.get_entrance("Goto Lower New Londo Ruins", self.player),
-                 lambda state: state.has("Key to the Seal"))
+                 lambda state: state.has("Key to the Seal", self.player))
         set_rule(self.multiworld.get_entrance("Goto The Abyss", self.player),
                  lambda state: state.has("Covenant of Artorias", self.player))
         set_rule(self.multiworld.get_entrance("Goto Sanctuary Garden", self.player),
-                 lambda state: state.has("Broken Pendant", self.player) and
-                               state.has("Lordvessel"))
+                 lambda state: state.has("Broken Pendant", self.player) and state.has("Lordvessel", self.player))
 
         # TODO How to set rule about placement of Cell Key to prevent softlock?
-        set_rule(self.multiworld.get_location("NUA: Estus Flask", self.player),
-                 lambda state: state.has("Dungeon Cell Key"))
-        # Does this and the following rule prevent softlocks in Duke's Archives?
+        # set_rule(self.multiworld.get_location("NUA: Estus Flask", self.player),
+        #          lambda state: state.has("Dungeon Cell Key", self.player))
+        # TODO Does this and the following rule prevent softlocks in Duke's Archives?
         set_rule(self.multiworld.get_location("DA: Archive Tower Cell Key", self.player),
-                 lambda state: state.has("Archive Tower Cell Key"))
-        set_rule(self.multiworld.get_location("DA Archive Tower Giant Door Key", self.player),
-                 lambda state: state.has("Archive Tower Giant Door Key"))
+                 lambda state: state.has("Archive Tower Cell Key", self.player))
+        set_rule(self.multiworld.get_location("DA: Archive Tower Giant Door Key", self.player),
+                 lambda state: state.has("Archive Tower Giant Door Key", self.player))
         # TODO Does this prevent hell runs in Lost Izalith?
         set_rule(self.multiworld.get_location("DR: Orange Charred Ring", self.player),
-                 lambda state: state.has("Orange Charred Ring"))
+                 lambda state: state.has("Orange Charred Ring", self.player))
+        set_rule(self.multiworld.get_location("TG: Soul of Gravelord Nito", self.player),
+                 lambda state: state.has("Lordvessel", self.player))
 
         self.multiworld.completion_condition[self.player] = lambda state: \
-            state.has("Soul of the Four Kings") and \
-            state.has("Soul of Gravelord Nito") and \
-            state.has("Soul of Seath the Scaleless") and \
-            state.has("Soul of Bed of Chaos") and \
-            state.has("Lordvessel")
+            state.has("Soul of the Four Kings", self.player) and \
+            state.has("Soul of Gravelord Nito", self.player) and \
+            state.has("Soul of Seath the Scaleless", self.player) and \
+            state.has("Soul of Bed of Chaos", self.player) and \
+            state.has("Lordvessel", self.player)
