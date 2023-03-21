@@ -11,7 +11,7 @@ from .data.locations_data import location_dictionary, northern_undead_asylum_tab
     lower_new_londo_ruins_table, the_abyss_table, the_dukes_archives_table, crystal_cave_table, demon_ruins_table, \
     lost_izalith_table, the_catacombs_table, tomb_of_giants_table, kiln_of_the_first_flame_table, \
     the_valley_of_the_drakes_table, sanctuary_garden_table, royal_wood_table, oolacile_township_table, \
-    chasm_of_the_abyss_table
+    chasm_of_the_abyss_table, northern_undead_asylum_revisit_table
 from ..AutoWorld import World, WebWorld
 from BaseClasses import MultiWorld, Region, Item, Entrance, Tutorial, ItemClassification
 from ..generic.Rules import set_rule, add_item_rule
@@ -78,6 +78,8 @@ class DarkSoulsRemasteredWorld(World):
 
         # Vanilla Regions
         northern_undead_asylum_region = self.create_region("Northern Undead Asylum", northern_undead_asylum_table)
+        northern_undead_asylum_revisit_region = self.create_region("Northern Undead Asylum Revisit",
+                                                                   northern_undead_asylum_revisit_table)
         firelink_shrine_region = self.create_region("Firelink Shrine", firelink_shrine_table)
         undead_burg_region = self.create_region("Undead Burg", undead_burg_table)
         lower_undead_burg_region = self.create_region("Lower Undead Burg", lower_undead_burg_table)
@@ -121,8 +123,14 @@ class DarkSoulsRemasteredWorld(World):
         firelink_shrine_region.exits.append(Entrance(self.player, "Goto Undead Burg", firelink_shrine_region))
         firelink_shrine_region.exits.append(Entrance(self.player, "Goto New Londo Ruins", firelink_shrine_region))
         firelink_shrine_region.exits.append(Entrance(self.player, "Goto The Catacombs", firelink_shrine_region))
+        firelink_shrine_region.exits.append(Entrance(self.player, "Goto Northern Undead Asylum Revisit",
+                                                     firelink_shrine_region))
         firelink_shrine_region.exits.append(Entrance(self.player, "Goto Kiln of the First Flame",
                                                      firelink_shrine_region))
+
+        # Northern Undead Asylum Revisit
+        self.multiworld.get_entrance("Goto Northern Undead Asylum Revisit", self.player)\
+            .connect(northern_undead_asylum_revisit_region)
 
         # Kiln of the First Flame
         self.multiworld.get_entrance("Goto Kiln of the First Flame", self.player). \
@@ -314,6 +322,12 @@ class DarkSoulsRemasteredWorld(World):
                                state.has("Lordvessel", self.player))
         set_rule(self.multiworld.get_entrance("Goto Lower Undead Burg", self.player),
                  lambda state: state.has("Basement Key", self.player))
+        set_rule(self.multiworld.get_entrance("Shortcut to Darkroot Basin", self.player),
+                 lambda state: state.has("Watchtower Basement Key", self.player) or
+                               state.has("Master Key", self.player))
+        set_rule(self.multiworld.get_entrance("Upper shortcut to Valley of Drakes", self.player),
+                 lambda state: state.has("Key to New Londo Ruins", self.player) or
+                               state.has("Master Key", self.player))
         set_rule(self.multiworld.get_entrance("Goto Depths", self.player),
                  lambda state: state.has("Key to Depths", self.player))
         set_rule(self.multiworld.get_entrance("Goto Blighttown", self.player),

@@ -1,13 +1,18 @@
 northern_undead_asylum_table = {
     # TODO Prepare logic to prevent immediate BK or softlock
-    "NUA: Dungeon Cell Key": 0x000007DA,  # On corpse dropped into cell
+    # "NUA: Dungeon Cell Key": 0x000007DA,  # On corpse dropped into cell
     # TODO How do these work?
     # "NUA: Shield": 0,  # Equip Tutorial
     # "NUA: Weapon/Catalyst": 0,  # Equip Tutorial
-    "NUA: Estus Flask": 0x000000C8,  # Oscar's 1st item
+    # TODO Add setting to force this here
+    # "NUA: Estus Flask": 0x000000C8,  # Oscar's 1st item
     "NUA: Undead Asylum F2 East Key": 0x000007DC,  # Oscar's 2nd item
     "NUA: Big Pilgrim's Key": 0x000007DB,  # Asylum Demon 1st item
-    "NUA: Peculiar Doll": 0x00000180,  # Only available during revisit
+}
+
+northern_undead_asylum_revisit_table = {
+    "NUAR: Peculiar Doll": 0x00000180,  # Only available during revisit
+    "NUAR: Rusted Iron Ring": 0x0000007D  # Behind the locked F2 West door
 }
 
 firelink_shrine_table = {
@@ -366,24 +371,24 @@ chasm_of_the_abyss_table = {
     "CA: Cleansing Greatshield": 0x00898AF0,  # Reward from saving Sif (best doggo)
     "CA: Black Flame": 0x000011B2,  # Guarded by several Giant Humanities
     "CA: Soul of Manus": 0x000002C7,  # Reward from Manus, Father of the Abyss
-    # TODO Bloated Heads? Oolacile Catalyst?
 }
 
-location_tables = [northern_undead_asylum_table, firelink_shrine_table, undead_burg_table, lower_undead_burg_table,
-                   undead_parish_table, depths_table, blighttown_table, quelaags_domain_table, the_great_hollow_table,
-                   ash_lake_table, sens_fortress_table, anor_londo_table, painted_world_of_ariamis_table,
-                   darkroot_garden_table, darkroot_basin_table, new_londo_ruins_table, lower_new_londo_ruins_table,
-                   the_abyss_table, the_dukes_archives_table, crystal_cave_table, demon_ruins_table, lost_izalith_table,
-                   the_catacombs_table, tomb_of_giants_table, kiln_of_the_first_flame_table,
-                   the_valley_of_the_drakes_table, sanctuary_garden_table, royal_wood_table, oolacile_township_table,
-                   chasm_of_the_abyss_table]
+location_tables = [northern_undead_asylum_table, northern_undead_asylum_revisit_table, firelink_shrine_table,
+                   undead_burg_table, lower_undead_burg_table, undead_parish_table, depths_table, blighttown_table,
+                   quelaags_domain_table, the_great_hollow_table, ash_lake_table, sens_fortress_table, anor_londo_table,
+                   painted_world_of_ariamis_table, darkroot_garden_table, darkroot_basin_table, new_londo_ruins_table,
+                   lower_new_londo_ruins_table, the_abyss_table, the_dukes_archives_table, crystal_cave_table,
+                   demon_ruins_table, lost_izalith_table, the_catacombs_table, tomb_of_giants_table,
+                   kiln_of_the_first_flame_table, the_valley_of_the_drakes_table, sanctuary_garden_table,
+                   royal_wood_table, oolacile_township_table, chasm_of_the_abyss_table]
 
-location_dictionary = {**northern_undead_asylum_table, **firelink_shrine_table, **undead_burg_table,
-                       **lower_undead_burg_table, **undead_parish_table, **depths_table, **blighttown_table,
-                       **quelaags_domain_table, **the_great_hollow_table, **ash_lake_table, **sens_fortress_table,
-                       **anor_londo_table, **painted_world_of_ariamis_table, **darkroot_garden_table,
-                       **darkroot_basin_table, **new_londo_ruins_table, **lower_new_londo_ruins_table,
-                       **the_abyss_table, **the_dukes_archives_table, **crystal_cave_table, **demon_ruins_table,
-                       **lost_izalith_table, **the_catacombs_table, **tomb_of_giants_table,
-                       **kiln_of_the_first_flame_table, **the_valley_of_the_drakes_table, **sanctuary_garden_table,
-                       **royal_wood_table, **oolacile_township_table, **chasm_of_the_abyss_table}
+location_dictionary = {**northern_undead_asylum_table, **northern_undead_asylum_revisit_table, **firelink_shrine_table,
+                       **undead_burg_table, **lower_undead_burg_table, **undead_parish_table, **depths_table,
+                       **blighttown_table, **quelaags_domain_table, **the_great_hollow_table, **ash_lake_table,
+                       **sens_fortress_table, **anor_londo_table, **painted_world_of_ariamis_table,
+                       **darkroot_garden_table, **darkroot_basin_table, **new_londo_ruins_table,
+                       **lower_new_londo_ruins_table, **the_abyss_table, **the_dukes_archives_table,
+                       **crystal_cave_table, **demon_ruins_table, **lost_izalith_table, **the_catacombs_table,
+                       **tomb_of_giants_table, **kiln_of_the_first_flame_table, **the_valley_of_the_drakes_table,
+                       **sanctuary_garden_table, **royal_wood_table, **oolacile_township_table,
+                       **chasm_of_the_abyss_table}

@@ -868,7 +868,7 @@ dlc_boss_souls_table = {
 
 keys_table = {
     "Master Key": 0x00000834,
-    "Dungeon Cell Key": 0x000007DA,  # Immediate BK item
+    # "Dungeon Cell Key": 0x000007DA,  # Immediate BK item
     "Undead Asylum F2 East Key": 0x000007DC,
     "Undead Asylum F2 West Key": 0x000007E0,
     "Big Pilgrim's Key": 0x000007DB,
