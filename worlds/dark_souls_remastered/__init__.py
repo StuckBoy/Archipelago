@@ -42,7 +42,7 @@ class DarkSoulsRemasteredWorld(World):
     topology_present: bool = True
     web = DarkSoulsRemasteredWeb()
     data_version = 1  # TODO Is this right?
-    base_id = 100000
+    base_id = 110000
     required_client_version = (0, 3, 8)  # TODO Match current version on master
     item_name_to_id = DarkSoulsRemasteredItem.get_name_to_id()
     location_name_to_id = DarkSoulsRemasteredLocation.get_name_to_id()

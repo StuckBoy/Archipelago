@@ -9,7 +9,7 @@ class DarkSoulsRemasteredItem(Item):
 
     @staticmethod
     def get_name_to_id() -> dict:
-        base_id = 100000  # TODO Is this the base we want?
+        base_id = 110000  # TODO Is this the base we want?
         table_offset = 100  # TODO What should this be set to?
 
         output = {}

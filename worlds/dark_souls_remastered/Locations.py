@@ -7,7 +7,7 @@ class DarkSoulsRemasteredLocation(Location):
 
     @staticmethod
     def get_name_to_id() -> dict:
-        base_id = 100000  # TODO Is this the number we want?
+        base_id = 110000  # TODO Is this the number we want?
         table_offset = 100  # TODO Is this the number we want?
 
         output = {}
