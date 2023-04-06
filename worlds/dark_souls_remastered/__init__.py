@@ -3,6 +3,7 @@ from typing import Dict
 
 from .Items import DarkSoulsRemasteredItem
 from .Locations import DarkSoulsRemasteredLocation
+from .Options import dark_souls_remastered_options
 from .data.items_data import weapons_upgrade_5_table, weapons_upgrade_15_table, item_dictionary, key_items_list
 from .data.locations_data import location_dictionary, northern_undead_asylum_table, firelink_shrine_table, \
     undead_burg_table, lower_undead_burg_table, undead_parish_table, depths_table, blighttown_table, \
@@ -39,6 +40,7 @@ class DarkSoulsRemasteredWorld(World):
     """
 
     game: str = "Dark Souls Remastered"
+    option_definitions = dark_souls_remastered_options
     topology_present: bool = True
     web = DarkSoulsRemasteredWeb()
     data_version = 1  # TODO Is this right?
@@ -297,7 +299,9 @@ class DarkSoulsRemasteredWorld(World):
                     locations_target.append(0)
 
         slot_data: Dict[str, object] = {
-            "options": {},
+            "options": {
+                "death_link": self.multiworld.death_link[self.player].value
+            },
             "seed": self.multiworld.seed_name,  # To verify the server's multiworld
             "slot": self.multiworld.player_name[self.player],  # To connect to the server
             "base_id": self.base_id,  # To merge locations and items
