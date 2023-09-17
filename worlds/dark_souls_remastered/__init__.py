@@ -131,7 +131,7 @@ class DarkSoulsRemasteredWorld(World):
                                                      firelink_shrine_region))
 
         # Northern Undead Asylum Revisit
-        self.multiworld.get_entrance("Goto Northern Undead Asylum Revisit", self.player)\
+        self.multiworld.get_entrance("Goto Northern Undead Asylum Revisit", self.player) \
             .connect(northern_undead_asylum_revisit_region)
 
         # Kiln of the First Flame
@@ -191,7 +191,7 @@ class DarkSoulsRemasteredWorld(World):
 
         # Valley of Drakes
         self.multiworld.get_entrance("Goto Valley of Drakes", self.player).connect(the_valley_of_the_drakes_region)
-        self.multiworld.get_entrance("Upper shortcut to Valley of Drakes", self.player)\
+        self.multiworld.get_entrance("Upper shortcut to Valley of Drakes", self.player) \
             .connect(the_valley_of_the_drakes_region)
         self.multiworld.get_entrance("Lower shortcut to Valley of Drakes", self.player) \
             .connect(the_valley_of_the_drakes_region)
@@ -317,7 +317,8 @@ class DarkSoulsRemasteredWorld(World):
         # TODO How to prevent access to Sen's Fortress before both bells are rung?
         # Quelaag has a unique soul, but the Bell Gargoyles do not.
         set_rule(self.multiworld.get_entrance("Goto Firelink Shrine", self.player),
-                 lambda state: state.has("Big Pilgrim's Key", self.player))
+                 lambda state: state.has("Big Pilgrim's Key", self.player) and
+                               state.has("Undead Asylum F2 East Key", self.player))
         set_rule(self.multiworld.get_entrance("Goto Kiln of the First Flame", self.player),
                  lambda state: state.has("Soul of the Four Kings", self.player) and
                                state.has("Soul of Gravelord Nito", self.player) and
