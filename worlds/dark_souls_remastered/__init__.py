@@ -306,7 +306,8 @@ class DarkSoulsRemasteredWorld(World):
             "slot": self.multiworld.player_name[self.player],  # To connect to the server
             "base_id": self.base_id,  # To merge locations and items
             "locationsId": locations_id,
-            "locationsAddress": locations_address,
+            "locationsAddress": locations_address,  # TODO are these the in-game locations?
+            "locationsTarget": locations_target,  # TODO  are these the hex IDs to be given at the locations?
             "itemsId": items_id,
             "itemsAddress": items_address
         }
